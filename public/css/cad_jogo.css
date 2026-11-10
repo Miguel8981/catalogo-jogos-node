@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: bold;
+    flex: 1;
+}
+
+input,
+select {
+    padding: 10px;
+    border: 1px solid #3b3b55;
+    border-radius: 6px;
+    background-color: #12121c;
+    color: #e8e8f0;
+    font-size: 1rem;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #7c4dff;
+}
+
+.linha {
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+}
+
+.botao-cancelar {
+    background-color: #3b3b55;
+}

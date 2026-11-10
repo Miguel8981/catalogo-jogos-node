@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #12121c;
+    color: #e8e8f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 16px 32px;
+    background-color: #1c1c2b;
+    border-bottom: 3px solid #7c4dff;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    color: #b39dff;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #e8e8f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b39dff;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 32px 16px;
+}
+
+.cartao {
+    width: 100%;
+    max-width: 900px;
+    background-color: #1c1c2b;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.cartao h2 {
+    margin-bottom: 16px;
+    color: #b39dff;
+}
+
+.cartao-estreito {
+    max-width: 480px;
+}
+
+.usuario-nome {
+    color: #b8b8c8;
+    font-size: 0.9rem;
+}
+
+.aviso {
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+.sucesso {
+    background-color: #1f4d33;
+    color: #b6f5cd;
+}
+
+.erro {
+    background-color: #5a1f2a;
+    color: #ffc2cc;
+}
+
+button,
+.botao-cancelar,
+.botao-limpar,
+.botao-editar {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #7c4dff;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover,
+.botao-editar:hover {
+    background-color: #9370ff;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 20px 32px;
+    background-color: #1c1c2b;
+    border-top: 3px solid #7c4dff;
+}
+
+footer h2 {
+    font-size: 1rem;
+    color: #b39dff;
+    margin-bottom: 6px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #b8b8c8;
+}

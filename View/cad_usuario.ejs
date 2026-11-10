@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= titulo %></title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/cad_jogo.css">
+</head>
+<body>
+    <%- include("topo") %>
+
+    <main>
+        <section class="cartao cartao-estreito">
+            <h2><%= titulo %></h2>
+
+            <% if (erro !== "") { %>
+                <p class="aviso erro"><%= erro %></p>
+            <% } %>
+
+            <form method="post" action="<%= action %>">
+                <label>Nome
+                    <input type="text" name="nome" maxlength="100" required value="<%= nome %>">
+                </label>
+
+                <label>E-mail
+                    <input type="email" name="email" maxlength="100" required value="<%= email %>">
+                </label>
+
+                <label>Senha (mínimo 6 caracteres)
+                    <input type="password" name="senha" minlength="6" required>
+                </label>
+
+                <label>Confirmar senha
+                    <input type="password" name="confirmar" minlength="6" required>
+                </label>
+
+                <section class="linha">
+                    <button type="submit">Cadastrar</button>
+                    <a class="botao-cancelar" href="<%= voltar %>">Cancelar</a>
+                </section>
+            </form>
+        </section>
+    </main>
+
+    <%- include("rodape") %>
+</body>
+</html>

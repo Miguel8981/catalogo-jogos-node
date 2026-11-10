@@ -1,0 +1,17 @@
+<header>
+    <h1>Catálogo de Jogos</h1>
+    <nav>
+        <% if (typeof usuario !== "undefined" && usuario) { %>
+            <a href="/jogos">Minha biblioteca</a>
+            <a href="/jogos/novo">Cadastrar jogo</a>
+            <% if (usuario.perfil === "admin") { %>
+                <a href="/admin/cadastro">Cadastrar admin</a>
+            <% } %>
+            <span class="usuario-nome"><%= usuario.nome %> (<%= usuario.perfil %>)</span>
+            <a href="/logout">Sair</a>
+        <% } else { %>
+            <a href="/login">Entrar</a>
+            <a href="/cadastro">Criar conta</a>
+        <% } %>
+    </nav>
+</header>

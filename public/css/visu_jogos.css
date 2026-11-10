@@ -1,0 +1,56 @@
+.filtro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.filtro label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: bold;
+}
+
+.filtro select {
+    padding: 9px;
+    border: 1px solid #3b3b55;
+    border-radius: 6px;
+    background-color: #12121c;
+    color: #e8e8f0;
+}
+
+.botao-limpar {
+    background-color: #3b3b55;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #2e2e45;
+}
+
+th {
+    color: #b39dff;
+}
+
+.acoes {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.botao-excluir {
+    background-color: #c62f4a;
+}
+
+.botao-excluir:hover {
+    background-color: #e0405c;
+}
