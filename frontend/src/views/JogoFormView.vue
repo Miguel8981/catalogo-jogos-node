@@ -44,6 +44,13 @@
         </select>
       </label>
 
+      <label>Foto do jogo (JPG, PNG ou WEBP, até 2 MB)
+        <input type="file" accept="image/jpeg,image/png,image/webp" @change="escolherFoto">
+      </label>
+
+      <!-- Prévia: a foto escolhida agora ou, na edição, a foto atual do jogo -->
+      <img v-if="previa" class="previa-foto" :src="previa" alt="Prévia da foto">
+
       <section class="linha">
         <button type="submit">{{ editando ? "Salvar alterações" : "Cadastrar" }}</button>
         <router-link class="botao-cancelar" to="/jogos">Cancelar</router-link>
@@ -54,6 +61,7 @@
 
 <script>
 import api from "../services/axiosInstance";
+import { urlImagem } from "../services/axiosInstance";
 import { mensagemErro } from "../services/auth";
 
 export default {
@@ -72,6 +80,8 @@ export default {
         nota: "",
         status: "Quero jogar"
       },
+      foto: null,        // arquivo escolhido no input
+      previaNova: "",    // endereço temporário da foto escolhida (para a prévia)
       generos: [],
       statusLista: ["Quero jogar", "Jogando", "Zerado"],
       erro: ""
@@ -80,6 +90,9 @@ export default {
   computed: {
     editando() {
       return this.id !== "";
+    },
+    previa() {
+      return this.previaNova || urlImagem(this.jogo.imagem);
     }
   },
   async created() {
@@ -100,17 +113,35 @@ export default {
     }
   },
   methods: {
+    escolherFoto(evento) {
+      this.foto = evento.target.files[0] || null;
+      this.previaNova = this.foto ? URL.createObjectURL(this.foto) : "";
+    },
+    // Com foto, o envio é multipart/form-data (FormData), não JSON.
+    montarFormulario() {
+      const dados = new FormData();
+      dados.append("nome", this.jogo.nome);
+      dados.append("plataforma", this.jogo.plataforma);
+      dados.append("id_genero", this.jogo.id_genero);
+      dados.append("ano_lancamento", this.jogo.ano_lancamento);
+      dados.append("nota", this.jogo.nota);
+      dados.append("status", this.jogo.status);
+      if (this.foto) {
+        dados.append("imagem", this.foto);
+      }
+      return dados;
+    },
     async salvar() {
       this.erro = "";
       try {
         if (this.editando) {
-          await api.put("/jogos/" + this.id, this.jogo);
+          await api.put("/jogos/" + this.id, this.montarFormulario());
           this.$router.push({
             path: "/jogos",
             query: { msg: "Jogo atualizado com sucesso!" }
           });
         } else {
-          await api.post("/jogos", this.jogo);
+          await api.post("/jogos", this.montarFormulario());
           this.$router.push({
             path: "/jogos",
             query: { msg: "Jogo cadastrado com sucesso!" }

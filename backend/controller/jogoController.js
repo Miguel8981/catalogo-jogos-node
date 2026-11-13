@@ -1,5 +1,6 @@
-const jogoModel = require("../Model/jogoModel");
-const generoModel = require("../Model/generoModel");
+const jogoModel = require("../model/jogoModel");
+const generoModel = require("../model/generoModel");
+const { removerImagem } = require("../middleware/upload");
 
 const statusLista = ["Quero jogar", "Jogando", "Zerado"];
 
@@ -56,34 +57,53 @@ function lerCorpo(req) {
     return { nome, plataforma, ano, nota, status, idGenero, erro };
 }
 
-// POST /api/jogos
+// POST /api/jogos  (multipart/form-data: campos de texto + foto opcional "imagem")
 async function criar(req, res) {
     const d = lerCorpo(req);
+    const imagem = req.file ? req.file.filename : null;
 
     if (d.erro !== "") {
+        removerImagem(imagem);          // a foto já foi salva pelo multer: apaga
         return res.status(400).json({ erro: d.erro });
     }
 
-    await jogoModel.inserir(d.nome, d.plataforma, d.ano, d.nota, d.status, d.idGenero);
+    await jogoModel.inserir(d.nome, d.plataforma, d.ano, d.nota, d.status, d.idGenero, imagem);
     res.status(201).json({ msg: "Jogo cadastrado com sucesso!" });
 }
 
-// PUT /api/jogos/:id
+// PUT /api/jogos/:id  (foto nova é opcional: sem foto, mantém a atual)
 async function atualizar(req, res) {
     const id = Number(req.params.id);
     const d = lerCorpo(req);
+    const novaImagem = req.file ? req.file.filename : null;
+    const atual = await jogoModel.buscar(id);
 
+    if (!atual) {
+        removerImagem(novaImagem);
+        return res.status(404).json({ erro: "Jogo não encontrado." });
+    }
     if (d.erro !== "") {
+        removerImagem(novaImagem);
         return res.status(400).json({ erro: d.erro });
     }
 
-    await jogoModel.atualizar(id, d.nome, d.plataforma, d.ano, d.nota, d.status, d.idGenero);
+    await jogoModel.atualizar(id, d.nome, d.plataforma, d.ano, d.nota, d.status, d.idGenero, novaImagem);
+
+    if (novaImagem) {
+        removerImagem(atual.imagem);    // apaga a foto antiga
+    }
     res.json({ msg: "Jogo atualizado com sucesso!" });
 }
 
 // DELETE /api/jogos/:id
 async function excluir(req, res) {
-    await jogoModel.excluir(Number(req.params.id));
+    const id = Number(req.params.id);
+    const jogo = await jogoModel.buscar(id);
+
+    await jogoModel.excluir(id);
+    if (jogo) {
+        removerImagem(jogo.imagem);
+    }
     res.json({ msg: "Jogo excluído." });
 }
 

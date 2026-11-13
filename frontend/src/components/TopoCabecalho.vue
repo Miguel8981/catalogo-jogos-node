@@ -4,6 +4,7 @@
     <nav>
       <template v-if="auth.usuario">
         <router-link to="/inicio">Início</router-link>
+        <router-link to="/loja">Loja</router-link>
         <router-link to="/jogos">Biblioteca</router-link>
 
         <!-- Só o administrador enxerga estes links -->

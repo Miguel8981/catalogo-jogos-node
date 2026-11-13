@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 10-Nov-2026 às 19:41
--- Versão do servidor: 10.4.27-MariaDB
--- versão do PHP: 8.2.0
+-- Tempo de geração: 13/11/2026 às 04:14
+-- Versão do servidor: 10.4.32-MariaDB
+-- Versão do PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,20 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `generos`
+-- Estrutura para tabela `compras`
+--
+
+CREATE TABLE `compras` (
+  `id` int(11) NOT NULL,
+  `id_usuario` int(11) NOT NULL,
+  `id_jogo` int(11) NOT NULL,
+  `data_compra` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `generos`
 --
 
 CREATE TABLE `generos` (
@@ -33,7 +46,7 @@ CREATE TABLE `generos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Extraindo dados da tabela `generos`
+-- Despejando dados para a tabela `generos`
 --
 
 INSERT INTO `generos` (`id`, `nome`) VALUES
@@ -49,7 +62,7 @@ INSERT INTO `generos` (`id`, `nome`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `jogos`
+-- Estrutura para tabela `jogos`
 --
 
 CREATE TABLE `jogos` (
@@ -59,22 +72,23 @@ CREATE TABLE `jogos` (
   `ano_lancamento` int(11) NOT NULL,
   `nota` decimal(3,1) NOT NULL DEFAULT 0.0,
   `status` varchar(20) NOT NULL DEFAULT 'Quero jogar',
-  `id_genero` int(11) NOT NULL
+  `id_genero` int(11) NOT NULL,
+  `imagem` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Extraindo dados da tabela `jogos`
+-- Despejando dados para a tabela `jogos`
 --
 
-INSERT INTO `jogos` (`id`, `nome`, `plataforma`, `ano_lancamento`, `nota`, `status`, `id_genero`) VALUES
-(1, 'The Witcher 3', 'PC', 2015, '9.8', 'Zerado', 3),
-(2, 'Hollow Knight', 'PC', 2017, '9.5', 'Jogando', 2),
-(3, 'Forza Horizon 5', 'Xbox', 2021, '9.0', 'Quero jogar', 6);
+INSERT INTO `jogos` (`id`, `nome`, `plataforma`, `ano_lancamento`, `nota`, `status`, `id_genero`, `imagem`) VALUES
+(1, 'The Witcher 3', 'PC', 2015, 9.8, 'Zerado', 3, NULL),
+(2, 'Hollow Knight', 'PC', 2017, 9.5, 'Jogando', 2, NULL),
+(3, 'Forza Horizon 5', 'Xbox', 2021, 9.0, 'Quero jogar', 6, NULL);
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `usuarios`
+-- Estrutura para tabela `usuarios`
 --
 
 CREATE TABLE `usuarios` (
@@ -86,40 +100,55 @@ CREATE TABLE `usuarios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Extraindo dados da tabela `usuarios`
+-- Despejando dados para a tabela `usuarios`
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `perfil`) VALUES
-(1, 'Administrador', 'admin@catalogo.com', '$2b$10$wEuId3nSCFuQxeYwz.4//u3a.Nw0d8LKlAgu9yG/61ioJrkj7GIiy', 'admin');
+(1, 'Administrador', 'admin@catalogo.com', '$2b$10$wEuId3nSCFuQxeYwz.4//u3a.Nw0d8LKlAgu9yG/61ioJrkj7GIiy', 'admin'),
+(2, 'Lucas', 'lucas@gmail.com', '$2b$10$u2M6gLikqEG5US1z2d7.HOAl94ju0AWw9LnerEtrMjjRAwl0KH5hy', 'usuario');
 
 --
 -- Índices para tabelas despejadas
 --
 
 --
--- Índices para tabela `generos`
+-- Índices de tabela `compras`
+--
+ALTER TABLE `compras`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `usuario_jogo` (`id_usuario`,`id_jogo`),
+  ADD KEY `compras_ibfk_2` (`id_jogo`);
+
+--
+-- Índices de tabela `generos`
 --
 ALTER TABLE `generos`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `nome` (`nome`);
 
 --
--- Índices para tabela `jogos`
+-- Índices de tabela `jogos`
 --
 ALTER TABLE `jogos`
   ADD PRIMARY KEY (`id`),
   ADD KEY `id_genero` (`id_genero`);
 
 --
--- Índices para tabela `usuarios`
+-- Índices de tabela `usuarios`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `email` (`email`);
 
 --
--- AUTO_INCREMENT de tabelas despejadas
+-- AUTO_INCREMENT para tabelas despejadas
 --
+
+--
+-- AUTO_INCREMENT de tabela `compras`
+--
+ALTER TABLE `compras`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `generos`
@@ -137,14 +166,21 @@ ALTER TABLE `jogos`
 -- AUTO_INCREMENT de tabela `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- Restrições para despejos de tabelas
+-- Restrições para tabelas despejadas
 --
 
 --
--- Limitadores para a tabela `jogos`
+-- Restrições para tabelas `compras`
+--
+ALTER TABLE `compras`
+  ADD CONSTRAINT `compras_ibfk_1` FOREIGN KEY (`id_usuario`) REFERENCES `usuarios` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `compras_ibfk_2` FOREIGN KEY (`id_jogo`) REFERENCES `jogos` (`id`) ON DELETE CASCADE;
+
+--
+-- Restrições para tabelas `jogos`
 --
 ALTER TABLE `jogos`
   ADD CONSTRAINT `jogos_ibfk_1` FOREIGN KEY (`id_genero`) REFERENCES `generos` (`id`);

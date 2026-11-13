@@ -5,6 +5,7 @@ import CadastroView from "../views/CadastroView.vue";
 import CadastroAdminView from "../views/CadastroAdminView.vue";
 import InicioView from "../views/InicioView.vue";
 import BibliotecaView from "../views/BibliotecaView.vue";
+import LojaView from "../views/LojaView.vue";
 import JogoFormView from "../views/JogoFormView.vue";
 
 const routes = [
@@ -13,6 +14,7 @@ const routes = [
   { path: "/cadastro", component: CadastroView, meta: { publica: true } },
   { path: "/inicio", component: InicioView },
   { path: "/admin/cadastro", component: CadastroAdminView, meta: { admin: true } },
+  { path: "/loja", component: LojaView },
   { path: "/jogos", component: BibliotecaView },
   { path: "/jogos/novo", component: JogoFormView, meta: { admin: true } },
   { path: "/jogos/:id/editar", component: JogoFormView, props: true, meta: { admin: true } }

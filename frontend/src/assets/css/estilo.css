@@ -436,6 +436,99 @@ footer p {
     color: var(--primaria-clara);
 }
 
+/* ===== Loja (cards) ===== */
+.cartao-largo {
+    max-width: 1100px;
+}
+
+.grade-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 20px;
+}
+
+.card-jogo {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: var(--superficie-2);
+    border: 1px solid var(--borda);
+    border-radius: var(--raio);
+    transition: transform var(--transicao), box-shadow var(--transicao), border-color var(--transicao);
+}
+
+.card-jogo:hover {
+    transform: translateY(-4px);
+    border-color: var(--primaria);
+    box-shadow: 0 12px 28px rgba(124, 77, 255, 0.25);
+}
+
+.card-foto {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    background-color: var(--fundo);
+}
+
+.card-sem-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--texto-suave);
+    font-size: 0.9rem;
+    background: linear-gradient(135deg, var(--fundo), var(--superficie));
+}
+
+.card-corpo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px 16px 16px;
+}
+
+.card-corpo h3 {
+    font-size: 1.05rem;
+    line-height: 1.3;
+}
+
+.card-avaliacao {
+    font-weight: 700;
+    color: var(--texto);
+}
+
+.card-avaliacao .estrela {
+    color: #ffc247;
+}
+
+.card-avaliacao small {
+    color: var(--texto-suave);
+    font-weight: 400;
+}
+
+.card-comprado {
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: var(--sucesso-fundo);
+    color: var(--sucesso-texto);
+}
+
+/* Prévia da foto no formulário de jogo */
+.previa-foto {
+    width: 160px;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid var(--borda);
+}
+
+input[type="file"] {
+    padding: 9px 12px;
+    color: var(--texto-suave);
+}
+
 /* ===== Responsivo ===== */
 @media (max-width: 720px) {
     header {
