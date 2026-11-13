@@ -1,10 +1,15 @@
 <template>
   <article class="card-jogo">
-    <img v-if="jogo.imagem" class="card-foto" :src="foto" :alt="'Capa de ' + jogo.nome">
-    <section v-else class="card-foto card-sem-foto">Sem foto</section>
+    <!-- Clicar na foto ou no nome abre a tela de detalhes do jogo -->
+    <router-link class="card-link" :to="'/loja/' + jogo.id">
+      <img v-if="jogo.imagem" class="card-foto" :src="foto" :alt="'Capa de ' + jogo.nome">
+      <section v-else class="card-foto card-sem-foto">Sem foto</section>
+    </router-link>
 
     <section class="card-corpo">
-      <h3>{{ jogo.nome }}</h3>
+      <h3>
+        <router-link class="card-link" :to="'/loja/' + jogo.id">{{ jogo.nome }}</router-link>
+      </h3>
       <p class="card-avaliacao">
         <span class="estrela">★</span> {{ Number(jogo.nota).toFixed(1) }}
         <small>/ 10</small>

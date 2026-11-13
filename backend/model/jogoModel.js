@@ -27,6 +27,18 @@ async function buscar(id) {
     return jogos[0];
 }
 
+// Dados completos de um jogo, com o nome do gênero (usado na tela de detalhes da loja).
+async function buscarDetalhe(id) {
+    const [jogos] = await conexao.execute(
+        `SELECT j.id, j.nome, j.plataforma, j.ano_lancamento, j.nota, j.imagem, g.nome AS genero
+         FROM jogos j
+         INNER JOIN generos g ON g.id = j.id_genero
+         WHERE j.id = ?`,
+        [id]
+    );
+    return jogos[0];
+}
+
 async function inserir(nome, plataforma, ano, nota, status, idGenero, imagem) {
     await conexao.execute(
         "INSERT INTO jogos (nome, plataforma, ano_lancamento, nota, status, id_genero, imagem) VALUES (?, ?, ?, ?, ?, ?, ?)",
@@ -46,4 +58,4 @@ async function excluir(id) {
     await conexao.execute("DELETE FROM jogos WHERE id = ?", [id]);
 }
 
-module.exports = { listar, buscar, inserir, atualizar, excluir };
+module.exports = { listar, buscar, buscarDetalhe, inserir, atualizar, excluir };

@@ -5,6 +5,7 @@ const cors = require("cors");
 const jogoController = require("./controller/jogoController");
 const authController = require("./controller/authController");
 const compraController = require("./controller/compraController");
+const lojaController = require("./controller/lojaController");
 const { upload } = require("./middleware/upload");
 const { exigirLogin, exigirAdmin } = require("./middleware/auth");
 
@@ -53,6 +54,10 @@ app.delete("/api/jogos/:id", exigirAdmin, jogoController.excluir);    // exclui
 // Loja: o usuário logado vê o que já comprou e compra jogos
 app.get("/api/compras", exigirLogin, compraController.listar);
 app.post("/api/compras/:idJogo", exigirLogin, compraController.comprar);
+
+// Detalhes do jogo na loja e status pessoal do usuário (Quero jogar, Jogando, Zerado)
+app.get("/api/loja/:id", exigirLogin, lojaController.detalhe);
+app.put("/api/loja/:id/status", exigirLogin, lojaController.definirStatus);
 
 // Middleware de erro: captura qualquer falha (ex: banco desligado).
 app.use((erro, req, res, next) => {
