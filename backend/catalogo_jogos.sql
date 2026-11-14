@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 13/11/2026 às 04:14
+-- Tempo de geração: 14/11/2026 às 18:17
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -81,9 +81,29 @@ CREATE TABLE `jogos` (
 --
 
 INSERT INTO `jogos` (`id`, `nome`, `plataforma`, `ano_lancamento`, `nota`, `status`, `id_genero`, `imagem`) VALUES
-(1, 'The Witcher 3', 'PC', 2015, 9.8, 'Zerado', 3, NULL),
-(2, 'Hollow Knight', 'PC', 2017, 9.5, 'Jogando', 2, NULL),
-(3, 'Forza Horizon 5', 'Xbox', 2021, 9.0, 'Quero jogar', 6, NULL);
+(1, 'The Witcher 3', 'PC, Ps5, Ps4, Xbox series X e Xbox series S', 2015, 9.8, 'Zerado', 3, '1794540849716-937510.jpg'),
+(2, 'Hollow Knight', 'PC', 2017, 9.5, 'Jogando', 2, '1794540836910-753488.jpg'),
+(3, 'Forza Horizon 5', 'Xbox', 2021, 9.0, 'Quero jogar', 6, '1794540804131-311357.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `status_usuario`
+--
+
+CREATE TABLE `status_usuario` (
+  `id` int(11) NOT NULL,
+  `id_usuario` int(11) NOT NULL,
+  `id_jogo` int(11) NOT NULL,
+  `status` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Despejando dados para a tabela `status_usuario`
+--
+
+INSERT INTO `status_usuario` (`id`, `id_usuario`, `id_jogo`, `status`) VALUES
+(1, 2, 1, 'Quero jogar');
 
 -- --------------------------------------------------------
 
@@ -96,16 +116,17 @@ CREATE TABLE `usuarios` (
   `nome` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `senha` varchar(255) NOT NULL,
-  `perfil` varchar(10) NOT NULL DEFAULT 'usuario'
+  `perfil` varchar(10) NOT NULL DEFAULT 'usuario',
+  `criado_em` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Despejando dados para a tabela `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `perfil`) VALUES
-(1, 'Administrador', 'admin@catalogo.com', '$2b$10$wEuId3nSCFuQxeYwz.4//u3a.Nw0d8LKlAgu9yG/61ioJrkj7GIiy', 'admin'),
-(2, 'Lucas', 'lucas@gmail.com', '$2b$10$u2M6gLikqEG5US1z2d7.HOAl94ju0AWw9LnerEtrMjjRAwl0KH5hy', 'usuario');
+INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `perfil`, `criado_em`) VALUES
+(1, 'Administrador', 'admin@catalogo.com', '$2b$10$pY6Rq4ipGjLshMXImvhNT.y3CUrQMKMzlBLnSnzU2vueJ8skgbdKu', 'admin', '2026-11-14 12:53:23'),
+(2, 'Lucas', 'lucas@gmail.com', '$2b$10$u2M6gLikqEG5US1z2d7.HOAl94ju0AWw9LnerEtrMjjRAwl0KH5hy', 'usuario', '2026-11-14 12:53:23');
 
 --
 -- Índices para tabelas despejadas
@@ -132,6 +153,14 @@ ALTER TABLE `generos`
 ALTER TABLE `jogos`
   ADD PRIMARY KEY (`id`),
   ADD KEY `id_genero` (`id_genero`);
+
+--
+-- Índices de tabela `status_usuario`
+--
+ALTER TABLE `status_usuario`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `usuario_jogo` (`id_usuario`,`id_jogo`),
+  ADD KEY `status_usuario_ibfk_2` (`id_jogo`);
 
 --
 -- Índices de tabela `usuarios`
@@ -163,6 +192,12 @@ ALTER TABLE `jogos`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- AUTO_INCREMENT de tabela `status_usuario`
+--
+ALTER TABLE `status_usuario`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT de tabela `usuarios`
 --
 ALTER TABLE `usuarios`
@@ -184,6 +219,13 @@ ALTER TABLE `compras`
 --
 ALTER TABLE `jogos`
   ADD CONSTRAINT `jogos_ibfk_1` FOREIGN KEY (`id_genero`) REFERENCES `generos` (`id`);
+
+--
+-- Restrições para tabelas `status_usuario`
+--
+ALTER TABLE `status_usuario`
+  ADD CONSTRAINT `status_usuario_ibfk_1` FOREIGN KEY (`id_usuario`) REFERENCES `usuarios` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `status_usuario_ibfk_2` FOREIGN KEY (`id_jogo`) REFERENCES `jogos` (`id`) ON DELETE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
