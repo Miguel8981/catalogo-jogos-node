@@ -1,76 +1,64 @@
 <template>
-  <section v-if="auth.usuario" class="cartao">
-    <section class="boas-vindas">
-      <h2>Olá, {{ auth.usuario.nome }}!</h2>
-      <p>Bem-vindo ao Catálogo de Jogos. Aqui você acompanha a biblioteca de jogos.</p>
-    </section>
+  <section v-if="auth.usuario" class="inicio-pagina">
+    <h2 class="inicio-ola">Olá, {{ auth.usuario.nome }}!</h2>
 
     <p v-if="erro" class="aviso erro">{{ erro }}</p>
 
-    <section class="resumo">
-      <article class="resumo-item">
-        <strong>{{ jogos.length }}</strong>
-        <span>Jogos na biblioteca</span>
-      </article>
-      <article class="resumo-item">
-        <strong>{{ contar("Quero jogar") }}</strong>
-        <span>Quero jogar</span>
-      </article>
-      <article class="resumo-item">
-        <strong>{{ contar("Jogando") }}</strong>
-        <span>Jogando</span>
-      </article>
-      <article class="resumo-item">
-        <strong>{{ contar("Zerado") }}</strong>
-        <span>Zerados</span>
-      </article>
-    </section>
+    <!-- Carrossel: 3 novidades do catálogo -->
+    <CarrosselDestaque :jogos="novidades" />
 
-    <h3 class="subtitulo">Melhores notas</h3>
-    <p v-if="melhores.length === 0">Ainda não há jogos cadastrados.</p>
-    <ol v-else class="ranking">
-      <li v-for="jogo in melhores" :key="jogo.id">
-        <span>{{ jogo.nome }} <small>({{ jogo.genero }})</small></span>
-        <strong>{{ jogo.nota }}</strong>
-      </li>
-    </ol>
+    <SecaoJogos
+      titulo="Mais adicionados nos últimos 6 meses"
+      :jogos="maisComprados"
+      singular="adição"
+      plural="adições"
+      vazio="Nenhum jogo foi adicionado às bibliotecas nos últimos 6 meses."
+    />
 
-    <router-link class="botao-editar" to="/jogos">Ver biblioteca completa</router-link>
+    <SecaoJogos
+      titulo="Recém-cadastrados"
+      :jogos="recentes"
+      vazio="Ainda não há jogos cadastrados."
+    />
+
+    <SecaoJogos
+      titulo="Mais jogados"
+      :jogos="maisJogados"
+      singular="jogador"
+      plural="jogadores"
+      vazio="Ainda ninguém marcou um jogo como Jogando ou Zerado."
+    />
   </section>
 </template>
 
 <script>
+import CarrosselDestaque from "../components/CarrosselDestaque.vue";
+import SecaoJogos from "../components/SecaoJogos.vue";
 import api from "../services/axiosInstance";
 import { auth, mensagemErro } from "../services/auth";
 
 export default {
   name: "InicioView",
+  components: { CarrosselDestaque, SecaoJogos },
   data() {
     return {
       auth,
-      jogos: [],
+      novidades: [],
+      maisComprados: [],
+      recentes: [],
+      maisJogados: [],
       erro: ""
     };
   },
-  computed: {
-    // os 3 jogos com maior nota
-    melhores() {
-      return [...this.jogos]
-        .sort((a, b) => b.nota - a.nota)
-        .slice(0, 3);
-    }
-  },
   async created() {
     try {
-      const resposta = await api.get("/jogos");
-      this.jogos = resposta.data;
+      const resposta = await api.get("/loja/destaques");
+      this.novidades = resposta.data.novidades;
+      this.maisComprados = resposta.data.maisComprados;
+      this.recentes = resposta.data.recentes;
+      this.maisJogados = resposta.data.maisJogados;
     } catch (e) {
       this.erro = mensagemErro(e);
-    }
-  },
-  methods: {
-    contar(status) {
-      return this.jogos.filter((jogo) => jogo.status === status).length;
     }
   }
 };

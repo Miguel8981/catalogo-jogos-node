@@ -3,10 +3,21 @@ const compraModel = require("../model/compraModel");
 const statusModel = require("../model/statusModel");
 
 const statusPermitidos = ["Quero jogar", "Jogando", "Zerado"];
-// Estes dois só podem ser escolhidos por quem já comprou o jogo.
+// Estes dois só podem ser escolhidos por quem já adicionou o jogo à biblioteca.
 const statusQueExigemCompra = ["Jogando", "Zerado"];
 
-// GET /api/loja/:id  ->  dados do jogo + se o usuário comprou + status dele
+// GET /api/loja/destaques  ->  as listas da tela inicial (carrossel + seções)
+async function destaques(req, res) {
+    const [novidades, maisComprados, recentes, maisJogados] = await Promise.all([
+        jogoModel.listarNovidades(),
+        jogoModel.listarMaisComprados(),
+        jogoModel.listarRecentes(),
+        jogoModel.listarMaisJogados()
+    ]);
+    res.json({ novidades, maisComprados, recentes, maisJogados });
+}
+
+// GET /api/loja/:id  ->  dados do jogo + se está na biblioteca dele + status dele
 async function detalhe(req, res) {
     const idJogo = Number(req.params.id);
     const idUsuario = req.session.usuario.id;
@@ -37,11 +48,11 @@ async function definirStatus(req, res) {
         return res.status(404).json({ erro: "Jogo não encontrado." });
     }
 
-    // Regra: Jogando e Zerado só depois da compra (a API garante, mesmo que alguém burle a tela).
+    // Regra: Jogando e Zerado só depois de adicionar à biblioteca (a API garante, mesmo que alguém burle a tela).
     if (statusQueExigemCompra.includes(status)) {
         const comprado = await compraModel.jaComprou(idUsuario, idJogo);
         if (!comprado) {
-            return res.status(403).json({ erro: "Compre o jogo para marcá-lo como Jogando ou Zerado." });
+            return res.status(403).json({ erro: "Adicione o jogo à sua biblioteca para marcá-lo como Jogando ou Zerado." });
         }
     }
 
@@ -49,4 +60,4 @@ async function definirStatus(req, res) {
     res.json({ msg: "Status atualizado: " + status, status });
 }
 
-module.exports = { detalhe, definirStatus };
+module.exports = { destaques, detalhe, definirStatus };

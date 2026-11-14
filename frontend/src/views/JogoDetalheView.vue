@@ -1,6 +1,6 @@
 <template>
   <section class="cartao cartao-largo">
-    <router-link class="voltar" to="/loja">← Voltar para a loja</router-link>
+    <router-link class="voltar" to="/catalogo">← Voltar ao catálogo</router-link>
 
     <p v-if="msg" class="aviso sucesso">{{ msg }}</p>
     <p v-if="erro" class="aviso erro">{{ erro }}</p>
@@ -26,8 +26,8 @@
           <dd>{{ jogo.ano_lancamento }}</dd>
         </dl>
 
-        <p v-if="comprado" class="card-comprado">✓ Você já comprou este jogo</p>
-        <button v-else type="button" @click="comprar">Comprar</button>
+        <p v-if="naBiblioteca" class="card-comprado">✓ Este jogo está na sua biblioteca</p>
+        <button v-else type="button" @click="adicionar">Adicionar à minha biblioteca</button>
 
         <h3 class="subtitulo">Meu status</h3>
         <section class="status-opcoes">
@@ -43,8 +43,8 @@
             {{ opcao }}
           </button>
         </section>
-        <p v-if="!comprado" class="dica">
-          Compre o jogo para poder marcá-lo como Jogando ou Zerado.
+        <p v-if="!naBiblioteca" class="dica">
+          Adicione o jogo à sua biblioteca para poder marcá-lo como Jogando ou Zerado.
         </p>
       </section>
     </section>
@@ -57,14 +57,14 @@ import { mensagemErro } from "../services/auth";
 
 export default {
   name: "JogoDetalheView",
-  // "id" chega da rota /loja/:id (props: true)
+  // "id" chega da rota /catalogo/:id (props: true)
   props: {
     id: { type: String, required: true }
   },
   data() {
     return {
       jogo: null,
-      comprado: false,
+      naBiblioteca: false,
       status: null,
       opcoes: ["Quero jogar", "Jogando", "Zerado"],
       msg: "",
@@ -80,7 +80,7 @@ export default {
     try {
       const resposta = await api.get("/loja/" + this.id);
       this.jogo = resposta.data.jogo;
-      this.comprado = resposta.data.comprado;
+      this.naBiblioteca = resposta.data.comprado;   // a API ainda chama de "comprado"
       this.status = resposta.data.status;
     } catch (e) {
       if (e.response && e.response.status === 404) {
@@ -91,19 +91,16 @@ export default {
     }
   },
   methods: {
-    // Jogando e Zerado ficam travados até a compra.
+    // Jogando e Zerado ficam travados até adicionar à biblioteca.
     bloqueado(opcao) {
-      return !this.comprado && opcao !== "Quero jogar";
+      return !this.naBiblioteca && opcao !== "Quero jogar";
     },
-    async comprar() {
+    async adicionar() {
       this.msg = "";
       this.erro = "";
-      if (!window.confirm("Comprar o jogo " + this.jogo.nome + "?")) {
-        return;
-      }
       try {
         const resposta = await api.post("/compras/" + this.id);
-        this.comprado = true;
+        this.naBiblioteca = true;
         this.msg = resposta.data.msg;
       } catch (e) {
         this.erro = mensagemErro(e);

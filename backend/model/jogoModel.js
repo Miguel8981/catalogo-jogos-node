@@ -58,4 +58,54 @@ async function excluir(id) {
     await conexao.execute("DELETE FROM jogos WHERE id = ?", [id]);
 }
 
-module.exports = { listar, buscar, buscarDetalhe, inserir, atualizar, excluir };
+// ===== Tela inicial: listas de destaque =====
+const colunasCard = "j.id, j.nome, j.plataforma, j.ano_lancamento, j.nota, j.imagem, g.nome AS genero";
+const agrupar = "j.id, j.nome, j.plataforma, j.ano_lancamento, j.nota, j.imagem, g.nome";
+
+// Novidades na loja (carrossel): os 3 jogos com lançamento mais recente.
+async function listarNovidades() {
+    const [jogos] = await conexao.execute(
+        `SELECT ${colunasCard} FROM jogos j
+         INNER JOIN generos g ON g.id = j.id_genero
+         ORDER BY j.ano_lancamento DESC, j.id DESC LIMIT 3`
+    );
+    return jogos;
+}
+
+// Recém-cadastrados: os últimos jogos que o admin cadastrou (maior id = mais novo).
+async function listarRecentes() {
+    const [jogos] = await conexao.execute(
+        `SELECT ${colunasCard} FROM jogos j
+         INNER JOIN generos g ON g.id = j.id_genero
+         ORDER BY j.id DESC LIMIT 6`
+    );
+    return jogos;
+}
+
+// Mais comprados nos últimos 6 meses.
+async function listarMaisComprados() {
+    const [jogos] = await conexao.execute(
+        `SELECT ${colunasCard}, COUNT(c.id) AS total FROM jogos j
+         INNER JOIN generos g ON g.id = j.id_genero
+         INNER JOIN compras c ON c.id_jogo = j.id
+         WHERE c.data_compra >= DATE_SUB(NOW(), INTERVAL 6 MONTH)
+         GROUP BY ${agrupar}
+         ORDER BY total DESC, j.nome LIMIT 6`
+    );
+    return jogos;
+}
+
+// Mais jogados: quantos usuários marcaram o jogo como Jogando ou Zerado.
+async function listarMaisJogados() {
+    const [jogos] = await conexao.execute(
+        `SELECT ${colunasCard}, COUNT(s.id) AS total FROM jogos j
+         INNER JOIN generos g ON g.id = j.id_genero
+         INNER JOIN status_usuario s ON s.id_jogo = j.id
+         WHERE s.status IN ('Jogando', 'Zerado')
+         GROUP BY ${agrupar}
+         ORDER BY total DESC, j.nome LIMIT 6`
+    );
+    return jogos;
+}
+
+module.exports = { listar, buscar, buscarDetalhe, inserir, atualizar, excluir, listarNovidades, listarRecentes, listarMaisComprados, listarMaisJogados };

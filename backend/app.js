@@ -52,11 +52,14 @@ app.post("/api/jogos", exigirAdmin, upload.single("imagem"), jogoController.cria
 app.put("/api/jogos/:id", exigirAdmin, upload.single("imagem"), jogoController.atualizar);     // atualiza (foto opcional)
 app.delete("/api/jogos/:id", exigirAdmin, jogoController.excluir);    // exclui
 
-// Loja: o usuário logado vê o que já comprou e compra jogos
+// Biblioteca: o usuário vê o que já adicionou e adiciona jogos
 app.get("/api/compras", exigirLogin, compraController.listar);
 app.post("/api/compras/:idJogo", exigirLogin, compraController.comprar);
+app.get("/api/biblioteca", exigirLogin, compraController.biblioteca);   // Minha biblioteca
 
-// Detalhes do jogo na loja e status pessoal do usuário (Quero jogar, Jogando, Zerado)
+// Catálogo: detalhes do jogo e status pessoal do usuário (Quero jogar, Jogando, Zerado)
+// ATENÇÃO: "destaques" precisa vir ANTES de "/:id", senão o Express acha que "destaques" é um id.
+app.get("/api/loja/destaques", exigirLogin, lojaController.destaques);
 app.get("/api/loja/:id", exigirLogin, lojaController.detalhe);
 app.put("/api/loja/:id/status", exigirLogin, lojaController.definirStatus);
 

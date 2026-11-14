@@ -4,11 +4,12 @@
     <nav>
       <template v-if="auth.usuario">
         <router-link to="/inicio">Início</router-link>
-        <router-link to="/loja">Loja</router-link>
-        <router-link to="/jogos">Biblioteca</router-link>
+        <router-link to="/catalogo">Catálogo</router-link>
+        <router-link to="/biblioteca">Minha biblioteca</router-link>
 
         <!-- Só o administrador enxerga estes links -->
         <template v-if="auth.usuario.perfil === 'admin'">
+          <router-link to="/jogos">Gerenciar jogos</router-link>
           <router-link to="/jogos/novo">Cadastrar jogo</router-link>
           <router-link to="/admin/cadastro">Cadastrar admin</router-link>
         </template>

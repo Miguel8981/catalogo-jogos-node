@@ -1,6 +1,6 @@
 <template>
   <section class="cartao">
-    <h2>Minha biblioteca</h2>
+    <h2>Gerenciar jogos</h2>
 
     <p v-if="msg" class="aviso sucesso">{{ msg }}</p>
     <p v-if="erro" class="aviso erro">{{ erro }}</p>
