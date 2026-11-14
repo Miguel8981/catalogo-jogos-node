@@ -13,7 +13,8 @@
           <router-link to="/admin/cadastro">Cadastrar admin</router-link>
         </template>
 
-        <span class="usuario-nome">{{ auth.usuario.nome }} ({{ auth.usuario.perfil }})</span>
+        <!-- O nome do usuário leva para a tela de perfil -->
+        <router-link class="usuario-nome" to="/perfil">{{ auth.usuario.nome }} ({{ auth.usuario.perfil }})</router-link>
         <a href="#" @click.prevent="sairDaConta">Sair</a>
       </template>
       <template v-else>

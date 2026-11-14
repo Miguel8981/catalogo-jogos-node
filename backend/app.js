@@ -6,6 +6,7 @@ const jogoController = require("./controller/jogoController");
 const authController = require("./controller/authController");
 const compraController = require("./controller/compraController");
 const lojaController = require("./controller/lojaController");
+const perfilController = require("./controller/perfilController");
 const { upload } = require("./middleware/upload");
 const { exigirLogin, exigirAdmin } = require("./middleware/auth");
 
@@ -58,6 +59,11 @@ app.post("/api/compras/:idJogo", exigirLogin, compraController.comprar);
 // Detalhes do jogo na loja e status pessoal do usuário (Quero jogar, Jogando, Zerado)
 app.get("/api/loja/:id", exigirLogin, lojaController.detalhe);
 app.put("/api/loja/:id/status", exigirLogin, lojaController.definirStatus);
+
+// Perfil: cada usuário (ou admin) vê e edita os próprios dados
+app.get("/api/perfil", exigirLogin, perfilController.ver);
+app.put("/api/perfil", exigirLogin, perfilController.atualizar);
+app.put("/api/perfil/senha", exigirLogin, perfilController.alterarSenha);
 
 // Middleware de erro: captura qualquer falha (ex: banco desligado).
 app.use((erro, req, res, next) => {
