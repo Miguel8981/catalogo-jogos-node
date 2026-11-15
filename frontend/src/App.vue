@@ -1,6 +1,6 @@
 <template>
   <TopoCabecalho />
-  <main>
+  <main class="wiki-main">
     <router-view />
   </main>
   <RodapeSite />

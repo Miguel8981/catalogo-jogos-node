@@ -4,7 +4,9 @@
   "description": "API do catálogo de jogos com Node.js, Express e MySQL",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "seed:wiki": "node scripts/seedWikiGames.js",
+    "sync:reviews": "node scripts/syncSteamReviews.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",

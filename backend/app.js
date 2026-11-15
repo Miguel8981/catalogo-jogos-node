@@ -7,11 +7,12 @@ const authController = require("./controller/authController");
 const compraController = require("./controller/compraController");
 const lojaController = require("./controller/lojaController");
 const perfilController = require("./controller/perfilController");
+const wikiController = require("./controller/wikiController");
 const { upload } = require("./middleware/upload");
 const { exigirLogin, exigirAdmin } = require("./middleware/auth");
 
 const app = express();
-const PORTA = 3000;
+const PORTA = Number(process.env.PORT) || 3001;
 
 // CORS: permite que o front-end Vue (localhost:8080) converse com esta API
 // e envie o cookie da sessão (credentials: true).
@@ -21,6 +22,10 @@ app.use(cors({
 }));
 
 app.use(express.json());   // lê o corpo das requisições em JSON (req.body)
+
+// Catálogo editorial da wiki: leitura pública, separado dos jogos da biblioteca.
+app.get("/api/wiki/jogos", wikiController.listar);
+app.get("/api/wiki/jogos/:id", wikiController.buscar);
 
 // Fotos dos jogos: ficam em backend/uploads e são servidas em /uploads/nome-do-arquivo
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));

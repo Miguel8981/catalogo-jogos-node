@@ -15,11 +15,11 @@ const routes = [
   { path: "/", redirect: "/inicio" },
   { path: "/login", component: LoginView, meta: { publica: true } },
   { path: "/cadastro", component: CadastroView, meta: { publica: true } },
-  { path: "/inicio", component: InicioView },
+  { path: "/inicio", component: InicioView, meta: { wiki: true } },
   { path: "/admin/cadastro", component: CadastroAdminView, meta: { admin: true } },
   { path: "/perfil", component: PerfilView },
-  { path: "/catalogo", component: CatalogoView },
-  { path: "/catalogo/:id", component: JogoDetalheView, props: true },
+  { path: "/catalogo", component: CatalogoView, meta: { wiki: true } },
+  { path: "/catalogo/:id", component: JogoDetalheView, props: true, meta: { wiki: true } },
   { path: "/biblioteca", component: MinhaBibliotecaView },
   { path: "/jogos", component: BibliotecaView },
   { path: "/jogos/novo", component: JogoFormView, meta: { admin: true } },
@@ -28,12 +28,20 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior(to) {
+    if (to.hash) return { el: to.hash, behavior: "smooth" };
+    return { top: 0 };
+  }
 });
 
 // Guarda de rotas: faz o papel dos middlewares exigirLogin / exigirAdmin no front.
 // (A proteção de verdade continua na API; aqui é só para navegar melhor.)
 router.beforeEach(async (to) => {
+  if (to.meta.wiki) {
+    return true;
+  }
+
   await carregarSessao();
 
   if (!to.meta.publica && !auth.usuario) {

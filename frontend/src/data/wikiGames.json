@@ -1,0 +1,2583 @@
+[
+  {
+    "id": "monster-hunter-world",
+    "steamAppId": 582010,
+    "name": "Monster Hunter: World",
+    "originalName": "MONSTER HUNTER: WORLD",
+    "year": 2018,
+    "releaseDate": "8 ago. 2018",
+    "developer": "CAPCOM Co., Ltd.",
+    "publisher": "CAPCOM Co., Ltd.",
+    "franchise": "Monster Hunter",
+    "category": "Franquia principal / spin-off",
+    "genres": [
+      "Ação"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Co-op"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/582010/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256769112",
+        "title": "191203_防衛隊派生武器_BP_STEAM版",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/582010/256093/bfd68b8de9543f413783c6110b0057f817be3c71/1750555302/hls_264_master.m3u8?t=1578590997",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256769112/movie.293x165.jpg?t=1578590997"
+      },
+      {
+        "provider": "steam",
+        "id": "256769709",
+        "title": "191203_防具_防衛隊αシリーズ_BP_STEAM版",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/582010/257064/edc963db3125e2b1f9a39bdec19554ca8e0df38e/1750555479/hls_264_master.m3u8?t=1578591006",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256769709/movie.293x165.jpg?t=1578591006"
+      },
+      {
+        "provider": "steam",
+        "id": "256765469",
+        "title": "191016_MHW_ICEBORNE_SteamPV_English_BP_1080_60p_DJCTQ12.mp4",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/582010/249524/568b8611f1673daf4869a88dc439a324df285bae/1750555035/hls_264_master.m3u8?t=1578591199",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256765469/movie.293x165.jpg?t=1578591199"
+      },
+      {
+        "provider": "steam",
+        "id": "256747418",
+        "title": "190318_MHW_steamPV_TW3_BP.mp4",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/582010/217163/13fee19261dd1ed2dfdd08a4454302ac9a769425/1750554743/hls_264_master.m3u8?t=1578591421",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256747418/movie.293x165.jpg?t=1578591421"
+      },
+      {
+        "provider": "steam",
+        "id": "256746428",
+        "title": "190318_MHW_steamPV_AC_BP.mp4",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/582010/215391/0c75e48e7bd120147972c60c432d77e7e99f9398/1750554493/hls_264_master.m3u8?t=1578591532",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256746428/movie.293x165.jpg?t=1578591532"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_a262c53b8629de7c6547933dc0b49d31f4e1b1f1.1920x1080.jpg?t=1791439347",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_6b4986a37c7b5c185a796085c002febcdd5357b5.1920x1080.jpg?t=1791439347",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_0dfb20f6f09c196bfc317bd517dc430ed6e6a2a4.1920x1080.jpg?t=1791439347",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_25902a9ae6977d6d10ebff20b87e8739e51c5b8b.1920x1080.jpg?t=1791439347",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_681cc5358ec55a997aee9f757ffe8b418dc79a32.1920x1080.jpg?t=1791439347",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_ce69dc57e6e442c73d874f1b701f2e4af405fb19.1920x1080.jpg?t=1791439347"
+    ],
+    "score": "88",
+    "tagline": "Bem-vindo a um novo mundo! Monster Hunter: World é o mais recente jogo da série e a derradeira experiência de caça. Usa todos os recursos à tua disposição para caçar monstros num mundo a transbordar de surpresas e adrenalina.",
+    "description": "Bem-vindo a um novo mundo! Entra na pele de um caçador e mata monstros ferozes num ecossistema repleto de vida, onde podes usar o ambiente e os seus variados habitantes para ganhar vantagem. Caça sozinho ou em modo cooperativo com até 3 outros jogadores, usa os materiais recolhidos dos inimigos caídos para criar novos equipamentos e prepara-te para enfrentar criaturas maiores e ainda mais ferozes! APRESENTAÇÃO\n Descrição geral\n Enfrenta monstros gigantescos em cenários épicos. \n\nEnquanto caçador, a tua missão é caçar monstros em todo o tipo de locais.\nEnfrenta os monstros e obtém materiais que podes usar para criar armas e armaduras poderosas, de modo a caçares criaturas cada vez mais impressionantes.\n\nMonster Hunter: World é o mais recente jogo da série e a derradeira experiência de caça. Usa todos os recursos à tua disposição para caçar monstros num mundo a transbordar de surpresas e adrenalina.\n\n Contexto \nUma vez por década, os dragões ancestrais atravessam o mar rumo a um território ao qual foi dado o nome de Novo Mundo, numa migração conhecida como a Travessia Ancestral.\n\nDe modo a averiguar este misterioso fenómeno, a Guilda formou uma Comissão de Investigação, cujos membros partiram em grandes números em direção ao Novo Mundo.\n\nQuando a Comissão envia a sua Quinta Frota em busca do gigantesco dragão ancestral conhecido como Zorah Magdaros, um caçador prepara-se para partir numa aventura mais extraordinária do que alguma vez imaginaram.\n اECOSSISTEMA\n Um mundo que respira vida \nExistem diversos locais cheios de vida no jogo. Qualquer expedição neles deverá revelar descobertas curiosas. CAÇA\n Um arsenal variado e um parceiro indispensável \nO teu equipamento terá todos os recursos de que precisas para fazer crescer a tua reputação no Novo Mundo.\n\n O arsenal do caçador \nTens catorze armas à tua disposição, cada uma delas com ataques e caraterísticas únicas.\nAlguns caçadores esforçam-se por dominar uma única arma, enquanto outros preferem ter um bom nível com várias delas.\n\n Moscas batedoras \nCada local é marcado por rastos de monstros, tal como pegadas e covas.\nAs moscas batedoras irão lembrar-se do cheiro dos monstros e guiar-te até aos rastos mais próximos.\nÀ medida que reúnes mais rastos, as moscas batedoras irão revelar mais informações.\n\n Fisga \nA Fisga é indispensável para qualquer caçador, e podes carregá-la com as pedras e nozes de cada local.\nTáticas de diversão, encontrar atalhos e não só, a Fisga pode ser usada de inúmeras maneiras e permite-te caçar usando novas e interessantes abordagens.\n\n Ferramentas especializadas \nAs ferramentas especializadas desencadeiam efeitos impressionantes por tempo limitado, e podes equipar duas ao mesmo tempo.\nSão fáceis de usar, podendo ser selecionadas e ativadas como qualquer outro item que leves nas tuas caçadas.\n\n Palicoes \nOs Palicoes são os teus fiáveis companheiros nas caçadas e irão apoiar-te com vários tipos de habilidades, ofensivas, defensivas e podem até curar-te.\nO Palico de um caçador junta-se à Quinta Frota com o mesmo orgulho que teria qualquer outro membro da Comissão.",
+    "highlights": [
+      "Ação",
+      "Co-op",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/582010/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 520956,
+      "positive": 462705,
+      "negative": 58251,
+      "recommendPercent": 89,
+      "praise": "O ecossistema, a variedade de monstros e as caçadas cooperativas são os pontos mais celebrados.",
+      "caveat": "Parte dos jogadores relata caçadas longas e problemas técnicos pontuais, como sincronização de saves.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/582010/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "monster-hunter-rise",
+    "steamAppId": 1446780,
+    "name": "MONSTER HUNTER RISE",
+    "originalName": "MONSTER HUNTER RISE",
+    "year": 2021,
+    "releaseDate": "2021",
+    "developer": "CAPCOM Co., Ltd.",
+    "publisher": "CAPCOM Co., Ltd.",
+    "franchise": "Monster Hunter",
+    "category": "Franquia principal / spin-off",
+    "genres": [
+      "Ação"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Co-op",
+      "Co-op online"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1446780/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256850913",
+        "title": "SnowPC_PV1_54_BP_Steamストア用.mp4",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1446780/400072/23a86926546c0494379257b8cdc098438fa19dc1/1750688528/hls_264_master.m3u8?t=1633009807",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256850913/movie.293x165.jpg?t=1633009807"
+      },
+      {
+        "provider": "steam",
+        "id": "256873105",
+        "title": "01_モンスター１本化_02_スレートなし_2K",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1446780/438782/f779e169cae6c7b06d7146d2ff1d904cffe9adf7/1750690841/hls_264_master.m3u8?t=1644458549",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256873105/movie.293x165.jpg?t=1644458549"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/ss_f8249da14987e3c2d10fd4024736f28774c713da.1920x1080.jpg?t=1792548454",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/ss_25686086b61ca88a859bc20d588682be92ab4d63.1920x1080.jpg?t=1792548454",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/ss_d8d96313f1049c800d37a3fc521f06f926fca3ac.1920x1080.jpg?t=1792548454",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/ss_961c552a99c5c64689bebf0e272b13c80947f644.1920x1080.jpg?t=1792548454",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/ss_3f1a758231a78ab3cdd76c2f8f04d5bbec45faeb.1920x1080.jpg?t=1792548454",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/ss_5a601d6ecee22fcd0cb6142aec5ff7de1e1de091.1920x1080.jpg?t=1792548454"
+    ],
+    "score": "86",
+    "tagline": "Aceita o desafio e junta-te à caça! Torna-te caçador, explora novos mapas e usa uma variedade de armas para derrotar monstros temíveis num enredo totalmente novo, no mais recente episódio da galardoada série Monster Hunter: Monster Hunter Rise.",
+    "description": "Aceita o desafio e junta-te à caça! Torna-te caçador, explora novos mapas e usa uma variedade de armas para derrotar monstros temíveis num enredo totalmente novo, no mais recente episódio da galardoada série Monster Hunter: Monster Hunter Rise. O lançamento para PC inclui ainda várias otimizações que melhoram os gráficos e o desempenho.\n\n Monstros ferozes com habitats únicos \nCaça uma infinidade de monstros mortalmente ferozes e imprevisíveis. As recompensas não te são dadas de mão beijada. Esforça-te para aprender os movimentos únicos tanto dos monstros clássicos, como das novas criaturas inspiradas no folclore japonês, incluindo a icónica criatura Magnamalo.\n\n Escolhe a tua arma e mostra do que és capaz \nTens à tua escolha 14 tipos de arma diferentes que te oferecem estilos de jogo distintos, seja a curto ou longo alcance. Carrega a Espada Grandiosa para um ataque devastador, derrota monstros em grande estilo graças à elegante Espada Longa, torna-te um furacão de lâminas mortífero com as velozes Lâminas Duplas, faz investidas com a implacável Lança, ou usa o Arco e Fuzilarcos para atacar à distância. Estes são apenas alguns dos tipos de arma disponíveis do jogo, pelo que decerto encontrarás o estilo de jogo perfeito para ti. \n\n Caça, recolhe e fabrica rumo ao topo da cadeia alimentar \nPor cada monstro que caçares recebes materiais que te permitem criar novas armas e armaduras, assim como melhorar o teu equipamento. Volta ao mapa e caça monstros ainda mais ferozes para receberes as melhores recompensas! Podes alterar de arma a qualquer altura nas Caixas de Equipamento, por isso as possibilidades são infinitas!\n\n Derrota monstros a solo ou em equipa \nNo Hunter Hub podes juntar-te a até três jogadores e enfrentar monstros nas missões multijogador. A dificuldade adapta-se à quantidade de jogadores, por isso os combates são sempre justos, quer seja a solo ou em equipa.\n\n Gráficos incríveis, velocidade de fotogramas desbloqueada e outras otimizações para PC \nDesfruta de gráficos excecionais com até 4K de resolução, HDR com suporte para funcionalidades incluindo monitores ultrawide e uma velocidade de fotogramas desbloqueada para tornar a tua experiência muito mais imersiva. Obtém ainda acesso imediato a várias atualizações grátis que incluem novos monstros, missões, equipamento e muito mais.\n\n Desfruta de uma nova narrativa em Kamura Village \nEste local sereno é habitado por vários aldeões empolgantes que vivem há demasiado tempo com medo da Rampage: um evento catastrófico no qual inúmeros monstros atacam a vila de uma vez. Agora, 50 anos após a última Rampage, vais ter de ajudar os aldeões a enfrentar este desafio.\n\nDesfruta de novas ações de caça com o Wirebug \nOs Wirebugs fazem parte do conjunto de ferramentas do teu caçador. Disparam uma seda especial que te pode ajudar a subir paredes e atravessar mapas. Além disso, permitem-te sacar da cartola ataques especiais exclusivos dos 14 tipos de arma no jogo.\n\n Os Buddies estão aqui para ajudar \nLembras-te dos felinos Palico das anteriores aventuras no Monster Hunter? Se gostaste deles, vais gostar ainda mais dos Palamute, os novos companheiros caninos.\n\n Causa estragos a controlar monstros \nControla monstros furiosos graças à Wyvern Riding e causa imenso dano aos teus alvos! \n\n Defende-te das vagas de monstros na Rampage \nProtege a Kamura Village das vagas de monstros num novo tipo de missão! Prepara-te para caçar monstros numa escala nunca antes vista!",
+    "highlights": [
+      "Ação",
+      "Co-op",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1446780/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 128919,
+      "positive": 107811,
+      "negative": 21108,
+      "recommendPercent": 84,
+      "praise": "O ritmo ágil do combate e as novas opções de mobilidade aparecem entre os elogios recorrentes.",
+      "caveat": "Algumas avaliações reclamam de problemas com saves, excesso de diálogos iniciais e ajustes para jogar online.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1446780/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "monster-hunter-wilds",
+    "steamAppId": 2246340,
+    "name": "Monster Hunter Wilds",
+    "originalName": "MONSTER HUNTER WILDS",
+    "year": 2025,
+    "releaseDate": "27 fev. 2025",
+    "developer": "CAPCOM Co., Ltd.",
+    "publisher": "CAPCOM Co., Ltd.",
+    "franchise": "Monster Hunter",
+    "category": "Franquia principal / spin-off",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "RPG"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Co-op",
+      "Co-op online"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2246340/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "257283353",
+        "title": "10_MHWilds_TU4.5_Multi_BP_DJCTQ_1080p",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2246340/877879669/a0387fc74550c7820a80e9bee61bb4fe0bccce95/1770702385/hls_264_master.m3u8?t=1770710673",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257283353/f56fc8e58afb3467141df79a3f449fab20649949/movie_600x337.jpg?t=1770710673"
+      },
+      {
+        "provider": "steam",
+        "id": "257247857",
+        "title": "09_MHWilds_TU4_Multi_BP_DJCTQ_1080p",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2246340/2047555566/2c661d0eeeb0444dc05f34076a978cd5e5fecd5f/1765505303/hls_264_master.m3u8?t=1765526399",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257247857/a65be8c16e8d198844dfe817412b441c5d1f352e/movie_600x337.jpg?t=1765526399"
+      },
+      {
+        "provider": "steam",
+        "id": "257205920",
+        "title": "09_MHWilds_TU3_Multi_BP_DJCTQ_1080p",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2246340/1129824090/70ff021e64bbc21323c4ae2b37617136531d7d58/1758776377/hls_264_master.m3u8?t=1758783943",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257205920/9dfa3c12cb51aefbc31d546a232181be24c19322/movie_600x337.jpg?t=1758783943"
+      },
+      {
+        "provider": "steam",
+        "id": "257162160",
+        "title": "09_MHWilds_TU2_Multi_BP_DJCTQ_1080p",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2246340/7617440/e2c05f60c6c7b69c3819da3888256a009893aa7b/1750990610/hls_264_master.m3u8?t=1750999180",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257162160/7abdbb66cc73fe48c5d83286a334fb9e83c6bbe5/movie_600x337.jpg?t=1750999180"
+      },
+      {
+        "provider": "steam",
+        "id": "257118561",
+        "title": "09_MHWilds_TU1_Multi_BP_1080p",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2246340/857811/6dd35abadf20e00134979081245c526b275a1cb4/1748036249/hls_264_master.m3u8?t=1742961795",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257118561/d9f67f524a5de835fc81740acae8e4178c4dc8d9/movie_600x337.jpg?t=1742961795"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.1920x1080.jpg?t=1787549555",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_9245c1ede8c3fc2cd65e4890a74a01ef50b726da.1920x1080.jpg?t=1787549555",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c722e74607ffda9a1472093ccc934f1bdde10ab8.1920x1080.jpg?t=1787549555",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_d439e321350c004c4d866c248019aefdc6a50600.1920x1080.jpg?t=1787549555",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_fa2361b39da8e8bde3cbc282879de97f2f3e57af.1920x1080.jpg?t=1787549555",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c1dd8c8af4e0fd3bb233888b4155d94f7988debd.1920x1080.jpg?t=1787549555"
+    ],
+    "score": "—",
+    "tagline": "A força da natureza é avassaladora e as paisagens transformam-se drasticamente em momentos. Esta é uma história sobre monstros, humanos e o desafio que é viver em harmonia num mundo de dualidades. Prepara-te para a derradeira experiência de caça no Monster Hunter Wilds.",
+    "description": "A força da natureza é avassaladora e as paisagens transformam-se drasticamente em momentos.\n\nEsta é uma história sobre monstros, humanos e o desafio que é viver em harmonia num mundo de dualidades.\n\nCumpre o teu dever enquanto Hunter. Caça e derrota monstros poderosos e obtém os materiais necessários para fabricar novas armas e armaduras resistentes, enquanto descobres a ligação entre o povo das Forbidden Lands e o sítio onde habitam.\n\nPrepara-te para a derradeira experiência de caça no Monster Hunter Wilds.\n\nHistória\n\nHá alguns anos, o jovem Nata foi resgatado na fronteira das Forbidden Lands, uma região inexplorada que a guilda ainda não investigou.\n\nApós ouvir o relato do rapaz sobre a fuga a um monstro misterioso que atacou a sua aldeia, a guilda organizou uma expedição às Forbidden Lands para investigar.\n\nComeça assim a jornada da expedição para investigar o monstro conhecido como \"White Wraith\" e para salvar o guardião sob ataque.\n\nUm mundo vivo\n\nNas Forbidden Lands, as paisagens podem mudar drasticamente, já que o clima varia constantemente e de forma abrupta. Durante os rigorosos períodos de escassez e as perigosas intempéries, os monstros, famintos, saem em matilhas para caçar. Já nos períodos de abundância, a vida selvagem é rica e diversa.\n\nMonstros\n\nOs monstros que aqui habitam viram-se forçados a recorrer às suas características únicas para se adaptarem às alterações repentinas e sobreviver.\n\nDurante o período de intempérie, poderás até vislumbrar os monstros poderosos que estão no topo da cadeia alimentar.\n\nCaça\n\nÀ medida que o mundo à sua volta muda, os hunters e as suas táticas também precisam de evoluir. Não estão limitados à sua vasta gama de armas e armaduras... A própria arte da caça transformou-se e os hunters aprendem a antecipar o comportamento dos monstros e a familiarizar-se com o ambiente onde habitam.\n\nO Focus Mode acrescenta uma nova dimensão à caça. Direciona os teus ataques ou defesas e utiliza Focus Strikes para desferir ataques especiais que causam danos elevados a feridas e pontos fracos.\n\nPersonagens\n\nDesde parceiros de caça a membros da expedição, serão vários aqueles que te apoiarão na tua jornada.",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "Co-op",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/2246340/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Mistas",
+      "totalReviews": 335437,
+      "positive": 167553,
+      "negative": 167884,
+      "recommendPercent": 50,
+      "praise": "A ação de caça e o mundo vivo atraem quem procura uma experiência Monster Hunter mais recente.",
+      "caveat": "As avaliações críticas destacam desempenho no PC, travamentos e o ritmo da narrativa.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/2246340/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "baldurs-gate-3",
+    "name": "Baldur's Gate 3",
+    "originalName": "BALDUR'S GATE 3",
+    "year": 2023,
+    "releaseDate": "3 de agosto de 2023",
+    "developer": "Larian Studios",
+    "publisher": "Larian Studios",
+    "genres": [
+      "RPG",
+      "Fantasia",
+      "Turnos"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "modes": [
+      "Um jogador",
+      "Cooperativo online",
+      "Cooperativo local"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "id": "OcP0WdH7rTs",
+        "title": "Trailer de anúncio",
+        "kind": "TRAILER"
+      },
+      {
+        "id": "XuCfkgaaa08",
+        "title": "Trailer de lançamento",
+        "kind": "TRAILER"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_cf936d31061b58e98e0c646aee00e6030c410cda.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b6a6ee6e046426d08ceea7a4506a1b5f44181543.1920x1080.jpg"
+    ],
+    "score": "96",
+    "tagline": "Reúna seu grupo. Escolha seu destino. As escolhas mudam tudo.",
+    "description": "Um RPG de fantasia baseado nas regras de Dungeons & Dragons. Monte um grupo, converse, explore e resolva conflitos em um mundo que reage às suas decisões — sozinho ou com amigos.",
+    "highlights": [
+      "História moldada pelas escolhas",
+      "Combate tático por turnos",
+      "Campanha solo ou cooperativa"
+    ],
+    "steamAppId": 1086940,
+    "franchise": "Baldur's Gate 3",
+    "category": "Jogo",
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1086940/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 865511,
+      "positive": 837644,
+      "negative": 27867,
+      "recommendPercent": 97,
+      "praise": "Escolhas com impacto, liberdade de interpretação e a jornada do grupo são muito elogiadas.",
+      "caveat": "A quantidade de sistemas e diálogos pode parecer excessiva, e o combate por turnos não agrada a todos.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1086940/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "black-myth-wukong",
+    "steamAppId": 2358720,
+    "name": "Black Myth: Wukong",
+    "originalName": "BLACK MYTH: WUKONG",
+    "year": 2024,
+    "releaseDate": "19 ago. 2024",
+    "developer": "Game Science",
+    "publisher": "Game Science",
+    "franchise": "Black Myth: Wukong",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "RPG"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2358720/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "257048125",
+        "title": "Black Myth: Wukong - Launch Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2358720/743632/6acf4311bb6a59d300b902ab6a3f445215089d9c/1750812851/hls_264_master.m3u8?t=1729236218",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257048125/5bd85986ed6b1545d91ceb84714dd06a952fa17f/movie_600x337.jpg?t=1729236218"
+      },
+      {
+        "provider": "steam",
+        "id": "257029344",
+        "title": "Black Myth: Wukong - Pre-Orders Now Available",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2358720/710907/cfac50d865dd4c081a67949bef11a498e5a2c67b/1750812850/hls_264_master.m3u8?t=1729236226",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257029344/f33a1247a6929856238f8176f5cc30c75b84a865/movie_600x337.jpg?t=1729236226"
+      },
+      {
+        "provider": "steam",
+        "id": "257044448",
+        "title": "Black Myth: Wukong - Final Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2358720/737384/f7e06da11f0edccfcc36f2ee28dad70d320b15a6/1750812851/hls_264_master.m3u8?t=1729236234",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257044448/14ee8023a01fd253fec9018e4d98e09aab09cbf4/movie_600x337.jpg?t=1729236234"
+      },
+      {
+        "provider": "steam",
+        "id": "256987088",
+        "title": "Black Myth: Wukong Release Date Trailer | The Game Awards 2023",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2358720/637370/a11d3df06dd4d8a5c62221262fc33fafca80cd52/1750812850/hls_264_master.m3u8?t=1729236246",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256987088/7dec31481e6e0ca24e37a6f45c7abdf4edde26d9/movie_600x337.jpg?t=1729236246"
+      },
+      {
+        "provider": "steam",
+        "id": "256965216",
+        "title": "Black Myth: Wukong Gameplay | Gamescom ONL 2023",
+        "kind": "GAMEPLAY",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2358720/599863/2efe2fbdd78b7c51d6892169a0b75e8c47bd6633/1750812850/hls_264_master.m3u8?t=1729236249",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256965216/813ef09701102d456493067cf39d407ea0bbe02a/movie_600x337.jpg?t=1729236249"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/ss_86c4b7462bba219a0d0b89931a35812b9f188976.1920x1080.jpg?t=1760601605",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/ss_d9391ab31a4d15dddf7ba4949bfa44f5d9170580.1920x1080.jpg?t=1760601605",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/ss_524a39da392ee83dde091033562bc719d46b5838.1920x1080.jpg?t=1760601605",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/ss_968bbc9caceb7d798bd0c393e1e9b4c44ed6d835.1920x1080.jpg?t=1760601605",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/ss_415397426d4c939ebb8a93ac66831f28ee7199be.1920x1080.jpg?t=1760601605",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/ss_63477e8ce2c0582b81c6ed576377d78e692b5642.1920x1080.jpg?t=1760601605"
+    ],
+    "score": "—",
+    "tagline": "Black Myth: Wukong é um RPG de ação enraizado na mitologia chinesa. Entra na pele do Destined One e aventura-te pelos desafios e maravilhas que te esperam para descobrires a verdade por detrás do véu de uma lenda gloriosa do passado.",
+    "description": "Black Myth: Wukong é um RPG de ação enraizado na mitologia chinesa. A história é baseada em A Saga ao Ocidente, um dos quatro clássicos da literatura chinesa. Entra na pele do Destined One e aventura-te pelos desafios e maravilhas que te esperam para descobrires a verdade por detrás do véu de uma lenda gloriosa do passado.\n\n • Explora uma terra repleta de maravilhas\n\n \"Um mundo por descobrir, onde as maravilhas brilham,\nE a cada passo, uma cena nova começa.\" \n\nEntra num reino fascinante repleto de maravilhas e descobertas da mitologia chinesa antiga!\nNa pele do Destined One, vais atravessar várias paisagens distintas e de cortar a respiração da história clássica de A Saga ao Ocidente que criam uma aventura épica nunca antes vista.\n\n • Confronta inimigos poderosos novos e antigos\n\n \"Macaco heroico, poder e fama, \nOs adversários erguem-se para o testar. \" \n\nUm dos pontos mais altos de A Saga ao Ocidente é a grande variedade de inimigos, cada um com os seus pontos fortes únicos.\nÉs o Destined One e vais deparar-te com rivais poderosos e dignos durante a tua viagem. Enfrenta-os sem medo em batalhas épicas nas quais desistir não é uma opção.\n\n • Modera a tua mestria de vários feitiços\n\n \"Feitiços soltos, talentos em ação,\nCapacidades libertadas aproveitam o dia.\" \n\nFeitiços, transformações e artefactos mágicos de todas as manifestações, nas quais algumas neutralizam e outras amplificam, são elementos de combate icónicos na mitologia chinesa há muito tempo.\nNa pele do Destined One, para além de dominares várias técnicas de bastão, também podes combinar feitiços, habilidades, armas e equipamento para encontrar uma estratégia adequada ao teu estilo de combate.\n\n • Descobre histórias emocionantes por detrás de cada fachada\n\n \"Em todas as almas, selvagens ou não,\nExiste uma história da chama forte da vida.\" \n\nSob a fúria e astúcia dos teus inimigos reside um conjunto interessante das suas origens, personalidades e motivações à espera de ser descobertos.\nNa pele do Destined One, vais revelar as histórias por detrás de várias personagens, indo para além das tuas batalhas com as mesmas para provar o amor, ódio, ganância e fúria que já viveram e ainda carregam consigo.",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/2358720/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 1216169,
+      "positive": 1173210,
+      "negative": 42959,
+      "recommendPercent": 96,
+      "praise": "Chefes, apresentação visual e o combate contra criaturas marcantes recebem elogios.",
+      "caveat": "Alguns jogadores apontam repetição no combate, navegação confusa e dificuldade que parece pouco justa.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/2358720/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "cyberpunk-2077",
+    "name": "Cyberpunk 2077",
+    "originalName": "CYBERPUNK 2077",
+    "year": 2020,
+    "releaseDate": "10 de dezembro de 2020",
+    "developer": "CD Projekt Red",
+    "publisher": "CD Projekt",
+    "genres": [
+      "RPG",
+      "Ação",
+      "Mundo aberto"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "modes": [
+      "Um jogador"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "id": "BO8lX3hDU30",
+        "title": "Trailer oficial de gameplay",
+        "kind": "GAMEPLAY"
+      },
+      {
+        "id": "P99qJGrPNLs",
+        "title": "Trailer teaser",
+        "kind": "TRAILER"
+      },
+      {
+        "id": "8X2kIfS6fb8",
+        "title": "Trailer oficial da E3 2018",
+        "kind": "TRAILER"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/900f9bda156599fcd235f08ffb64667f9baa1afe/ss_900f9bda156599fcd235f08ffb64667f9baa1afe.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/f678ed77c2fe7060ac9c64e32e1472e3ec3ab7dc/ss_f678ed77c2fe7060ac9c64e32e1472e3ec3ab7dc.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/0ed9487e305983d60646ba163a3d8970efb6b347/ss_0ed9487e305983d60646ba163a3d8970efb6b347.1920x1080.jpg"
+    ],
+    "score": "86",
+    "tagline": "Em Night City, sobreviver é uma questão de estilo.",
+    "description": "Um RPG de ação em mundo aberto ambientado em Night City, uma metrópole obcecada por poder, tecnologia e modificações corporais. Você é V: defina seu estilo de jogo e construa sua própria história pela cidade.",
+    "highlights": [
+      "Cidade aberta e cheia de histórias",
+      "Combate com diferentes estilos",
+      "Missões com escolhas e consequências"
+    ],
+    "steamAppId": 1091500,
+    "franchise": "Cyberpunk 2077",
+    "category": "Jogo",
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1091500/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 1006794,
+      "positive": 877562,
+      "negative": 129232,
+      "recommendPercent": 87,
+      "praise": "Night City, personagens e narrativa mantêm jogadores envolvidos por várias jornadas.",
+      "caveat": "As avaliações negativas consultadas mencionam atualizações problemáticas e falhas de estabilidade no PC.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1091500/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "dark-souls-iii",
+    "steamAppId": 374320,
+    "name": "DARK SOULS™ III",
+    "originalName": "DARK SOULS™ III",
+    "year": 2016,
+    "releaseDate": "11 abr. 2016",
+    "developer": "FromSoftware, Inc.",
+    "publisher": "FromSoftware, Inc., Bandai Namco Entertainment",
+    "franchise": "DARK SOULS™ III",
+    "category": "Jogo",
+    "genres": [
+      "Ação"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Co-op"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/374320/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256663134",
+        "title": "DS3_Kingdom Fall (EN)",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/374320/56808/0af7e6e54ad977d6c9a83cbe2d4fe5a763a70f02/1750520236/hls_264_master.m3u8?t=1700587302",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256663134/movie.293x165.jpg?t=1700587302"
+      },
+      {
+        "provider": "steam",
+        "id": "256662355",
+        "title": "DS3 _ The Movie (EN)",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/374320/55428/fc8f93e8d5679a0be136b373937bb2a6e544ef7c/1750520226/hls_264_master.m3u8?t=1700587320",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256662355/movie.293x165.jpg?t=1700587320"
+      },
+      {
+        "provider": "steam",
+        "id": "256661040",
+        "title": "DS3 - True Colors (EN-UNRATED)",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/374320/52844/4a76b71611717933d3e51dcbeba07f7716bbbfed/1750520155/hls_264_master.m3u8?t=1700587324",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256661040/movie.293x165.jpg?t=1700587324"
+      },
+      {
+        "provider": "steam",
+        "id": "256659156",
+        "title": "Dark Souls III - Pre-Order trailer (EN-UNRATED)",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/374320/48799/c45aff58408eb417ba1bd2a62cf9e20fdfce68c6/1750520152/hls_264_master.m3u8?t=1700587342",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256659156/movie.293x165.jpg?t=1700587342"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.1920x1080.jpg?t=1748630784",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_1c0fa39091901496d77cf4cecfea4ffb056d6452.1920x1080.jpg?t=1748630784",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_1318a04ef11d87f38aebe6d47a96124f8f888ca8.1920x1080.jpg?t=1748630784",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_61524dee9ebf72d462638f21adbbbea4c93d791d.1920x1080.jpg?t=1748630784",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_fe1dc6761a9004aa39c2e6e62181593b7263edf9.1920x1080.jpg?t=1748630784",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_27397db724cfd5648655c1056ff5d184147a4c50.1920x1080.jpg?t=1748630784"
+    ],
+    "score": "89",
+    "tagline": "Dark Souls continua a explorar novas fronteiras com o mais recente e ambicioso capítulo desta série aclamada pela crítica e que definiu um género. Prepara-te e abraça as trevas!",
+    "description": "Obtém já o Season Pass do DARK SOULS™ III e desafia-te com todo o conteúdo disponível!\n\nVencedor do prémio \"Melhor RPG\" da gamescom 2015 e de mais de 35 prémios e nomeações da E3 2015.\n\nDARK SOULS™ III continua a explorar novas fronteiras com o mais recente e ambicioso capítulo desta série aclamada pela crítica e que definiu um género. \n\nCom as chamas a desvanecerem e o mundo em ruína, viaja até um universo com inimigos e cenários colossais. Os jogadores mergulharão num mundo de trevas com uma atmosfera épica através de uma jogabilidade mais rápida e um combate ainda mais intenso. Tanto os fãs como os novatos ficarão perdidos na jogabilidade emblemática desta série e no grafismo imersivo. \nAgora, apenas as cinzas restam... Prepara-te mais uma vez e abraça as trevas!",
+    "highlights": [
+      "Ação",
+      "Co-op",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/374320/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 443427,
+      "positive": 418286,
+      "negative": 25141,
+      "recommendPercent": 94,
+      "praise": "Combate preciso, chefes e exploração de áreas interligadas sustentam o apelo do jogo.",
+      "caveat": "A dificuldade e alguns problemas de desempenho ou travamentos em PCs atuais aparecem nas críticas.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/374320/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "doom-eternal",
+    "steamAppId": 782330,
+    "name": "DOOM Eternal",
+    "originalName": "DOOM ETERNAL",
+    "year": 2020,
+    "releaseDate": "19 mar. 2020",
+    "developer": "id Software",
+    "publisher": "Bethesda Softworks",
+    "franchise": "DOOM Eternal",
+    "category": "Jogo",
+    "genres": [
+      "Ação"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "PvP",
+      "PvP online"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/782330/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "257182101",
+        "title": "Mods Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/782330/1058653592/9f0464e095deedf33609b7717ae0390d6fa20ffb/1755007462/hls_264_master.m3u8?t=1755109909",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257182101/842d4f0e002d40b68833ca2db0137044ba1c04bc/movie_600x337.jpg?t=1755109909"
+      },
+      {
+        "provider": "steam",
+        "id": "256857551",
+        "title": "Update 6.66 Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/782330/412133/b97ddfc8328609c79a7087b876f47fd735d012c3/1750583508/hls_264_master.m3u8?t=1635282017",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256857551/movie.293x165.jpg?t=1635282017"
+      },
+      {
+        "provider": "steam",
+        "id": "256778598",
+        "title": "Launch Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/782330/273075/6b52a62c4573149e559d270cbe6b62f1df917914/1750583414/hls_264_master.m3u8?t=1586386363",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256778598/movie.293x165.jpg?t=1586386363"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/ss_4f93a7c5003d49cb32f6c0c6e547452b284580a0.1920x1080.jpg?t=1783432602",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/ss_7e6a2148321c8024285e3924903d8897cac95358.1920x1080.jpg?t=1783432602",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/ss_af3b43c4be0029b52ceefaf55ebe1918e2cb3471.1920x1080.jpg?t=1783432602",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/ss_ebd31ded4723e991446ededa9e65c980f988567d.1920x1080.jpg?t=1783432602",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/ss_c836f889d696fa2b81d5fe9f20f75dd925c1b499.1920x1080.jpg?t=1783432602",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/ss_1fcebe3689c6a941257509a2ac4b2fdfb1344730.1920x1080.jpg?t=1783432602"
+    ],
+    "score": "88",
+    "tagline": "Os exércitos do Inferno invadiram a Terra. Torna-te o Slayer numa campanha épica para jogador individual e vence os demónios em várias dimensões para impedir a destruição da humanidade. A única coisa que eles temem... és tu.",
+    "description": "Os exércitos do Inferno invadiram a Terra. Torna-te o Slayer numa campanha épica para jogador individual e vence os demónios em várias dimensões para impedir a destruição da humanidade. A Única Coisa Que Eles Temem... És Tu.\n\nDescobre a combinação suprema entre velocidade e poder no DOOM Eternal, o próximo grande salto nos jogos de ação na primeira pessoa. Nível Máximo De Ameaça Slayer\nArmado com um lança-chamas no ombro, uma lâmina de pulso retrátil, armas e mods melhorados e habilidades, nunca foste tão rápido, forte e versátil. Profana Trindade\nRetira o que precisas dos teus inimigos: efetua mortes Glory para receber saúde extra, incinera-os para recuperar armadura e usa a motosserra para reabastecer as munições. Entra No Battlemode\nUma nova experiência multijogador 2 vs. 1. Um DOOM Slayer armado até aos dentes enfrenta dois demónios controlados por jogadores através de cinco rondas de combate intenso na primeira pessoa.",
+    "highlights": [
+      "Ação",
+      "PvP",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/782330/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 218168,
+      "positive": 199360,
+      "negative": 18808,
+      "recommendPercent": 91,
+      "praise": "Combate veloz, arsenal variado e a intensidade constante agradam aos fãs de ação.",
+      "caveat": "A velocidade, as seções de plataforma e os quebra-cabeças dividem jogadores que preferiam o ritmo de DOOM (2016).",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/782330/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "elden-ring",
+    "name": "Elden Ring",
+    "originalName": "ELDEN RING",
+    "year": 2022,
+    "releaseDate": "25 de fevereiro de 2022",
+    "developer": "FromSoftware",
+    "publisher": "Bandai Namco Entertainment",
+    "genres": [
+      "RPG",
+      "Ação",
+      "Mundo aberto"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X|S"
+    ],
+    "modes": [
+      "Um jogador",
+      "Cooperativo online",
+      "PvP online"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "id": "E3Huy2cdih0",
+        "title": "Revelação oficial de gameplay",
+        "kind": "GAMEPLAY"
+      },
+      {
+        "id": "DbPbQMuEyX8",
+        "title": "Trailer de história",
+        "kind": "TRAILER"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_e0316c76f8197405c1312d072b84331dd735d60b.1920x1080.jpg"
+    ],
+    "score": "96",
+    "tagline": "A Ordem Áurea foi rompida. Erga-se, Maculado, e deixe-se guiar pela graça.",
+    "description": "Criado pela FromSoftware em colaboração com George R. R. Martin, Elden Ring leva o combate característico do estúdio a um vasto mundo de fantasia. Explore as Terras Intermédias, descubra masmorras escondidas e escolha seu próprio caminho até o trono do Lorde Prístino.",
+    "highlights": [
+      "Mundo aberto sem rota única",
+      "Combate exigente e muitas opções de build",
+      "Exploração, masmorras e chefes marcantes"
+    ],
+    "specs": {
+      "min": [
+        "Windows 10",
+        "Intel Core i5-8400 ou AMD Ryzen 3 3300X",
+        "12 GB",
+        "NVIDIA GTX 1060 3 GB ou AMD RX 580 4 GB",
+        "60 GB"
+      ],
+      "recommended": [
+        "Windows 10/11",
+        "Intel Core i7-8700K ou AMD Ryzen 5 3600X",
+        "16 GB",
+        "NVIDIA GTX 1070 8 GB ou AMD RX Vega 56 8 GB",
+        "60 GB"
+      ]
+    },
+    "steamAppId": 1245620,
+    "franchise": "Elden Ring",
+    "category": "Jogo",
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1245620/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 1162235,
+      "positive": 1081540,
+      "negative": 80695,
+      "recommendPercent": 93,
+      "praise": "Exploração livre, chefes e a sensação de descobrir algo inesperado são os maiores destaques.",
+      "caveat": "A dificuldade pode afastar iniciantes; jogadores também citam desempenho e falta de recursos como ultrawide.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1245620/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "fallout-4",
+    "steamAppId": 377160,
+    "name": "Fallout 4",
+    "originalName": "FALLOUT 4",
+    "year": 2015,
+    "releaseDate": "9 nov. 2015",
+    "developer": "Bethesda Game Studios",
+    "publisher": "Bethesda Softworks",
+    "franchise": "Fallout 4",
+    "category": "Jogo",
+    "genres": [
+      "RPG"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/377160/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "257229212",
+        "title": "Creations Bundle Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/377160/1672571219/644e16118aab9bd7107055611003b0383f459b6a/1762791676/hls_264_master.m3u8?t=1762798746",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257229212/194a6d2755885ee24b96a756b42b421340b7071e/movie_600x337.jpg?t=1762798746"
+      },
+      {
+        "provider": "steam",
+        "id": "256658080",
+        "title": "Fallout 4 Launch Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/377160/46347/0c5ac96440fdfe185be8e2f17981a5cf0bd8a0ca/1750520823/hls_264_master.m3u8?t=1447378809",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256658080/movie.293x165.jpg?t=1447378809"
+      },
+      {
+        "provider": "steam",
+        "id": "256656644",
+        "title": "Fallout 4 Strength Video",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/377160/43498/6da1312549ae08dc88c743eb59719d5b504a1074/1750520748/hls_264_master.m3u8?t=1447378208",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256656644/movie.293x165.jpg?t=1447378208"
+      },
+      {
+        "provider": "steam",
+        "id": "256657296",
+        "title": "Fallout 4 Perception Video",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/377160/44757/55c5911e77caea90ebfca8a099248adeba2b71b7/1750520749/hls_264_master.m3u8?t=1447378488",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256657296/movie.293x165.jpg?t=1447378488"
+      },
+      {
+        "provider": "steam",
+        "id": "256657300",
+        "title": "Fallout 4 Endurance Video",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/377160/44761/43c2b56284159f8381b11b7a0ad9515511601b70/1750520779/hls_264_master.m3u8?t=1447378489",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256657300/movie.293x165.jpg?t=1447378489"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_f7861bd71e6c0c218d8ff69fb1c626aec0d187cf.1920x1080.jpg?t=1786648137",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_910437ac708aed7c028f6e43a6224c633d086b0a.1920x1080.jpg?t=1786648137",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_f649b8e57749f380cca225db5074edbb1e06d7f5.1920x1080.jpg?t=1786648137",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_c310f858e6a7b02ffa21db984afb0dd1b24c1423.1920x1080.jpg?t=1786648137",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_5e2d136759e0ff4e0d74940fffc9c64e8cdcd833.1920x1080.jpg?t=1786648137",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_c6b798424a93617b4b825aea3bcd9547c0b0a5ce.1920x1080.jpg?t=1786648137"
+    ],
+    "score": "84",
+    "tagline": "Da autoria da Bethesda Game Studios, premiada criadora de Starfield e The Elder Scrolls V: Skyrim, chega-nos Fallout 4. Uma referência em RPG de mundo aberto e vencedor de mais de 200 prémios “Best Of”, incluindo Jogo do Ano dos DICE e BAFTA.",
+    "description": "Da autoria da Bethesda Game Studios, premiada criadora de Starfield e The Elder Scrolls V: Skyrim, chega-nos Fallout 4. Uma referência em RPG de mundo aberto e vencedor de mais de 200 prémios “Best Of”, incluindo Jogo do Ano dos DICE e BAFTA.\n És o único sobrevivente do Vault 111 num mundo reduzido a cinzas após uma guerra nuclear. Cada momento é uma batalha pela sobrevivência, cada decisão molda o teu futuro. Reconstrói, renova e reclama as terras desoladas, à tua maneira.\n Bem-vindo a casa.\n\n Independência e Liberdade\n Faz o que quiseres num gigantesco mundo aberto com centenas de locais, personagens e missões. Junta-te a fações, forja alianças ou avança a solo. És tu quem faz as escolhas e todas elas contam.\n\n És S.P.E.C.I.A.L.\n Cria a tua personagem personalizada com o sistema S.P.E.C.I.A.L.. Escolhe entre centenas de vantagens e desenvolve o teu próprio estilo de jogo; podes ser um diplomata bem-falante, um sniper furtivo, ou um tanque móvel com Power Armor.\n\n Coleciona e constrói\n Vasculha, cria e personaliza como nunca. Constrói milhares de itens, como armaduras, armas, alimentos e muito mais, além de poderes formar e gerir povoações inteiras em toda a Commonwealth.\n\n Combate imersivo na primeira ou terceira pessoa\n Usa o dinâmico Vault-Tec Assisted Targeting System (V.A.T.S.) para abrandares o tempo em combate e acertares nos inimigos com uma precisão cinemática, ou assume a luta com as próprias mãos nos tiroteios em tempo real.",
+    "highlights": [
+      "RPG",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/377160/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 431369,
+      "positive": 350285,
+      "negative": 81084,
+      "recommendPercent": 81,
+      "praise": "Explorar o mundo e criar a própria aventura fazem muita gente voltar, com mods ampliando as possibilidades.",
+      "caveat": "A história principal é vista como menos marcante por alguns, e atualizações podem quebrar mods.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/377160/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "final-fantasy-vii-remake-intergrade",
+    "steamAppId": 1462040,
+    "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "originalName": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "year": 2022,
+    "releaseDate": "17 jun. 2022",
+    "developer": "Square Enix",
+    "publisher": "Square Enix",
+    "franchise": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "RPG"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1462040/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256878899",
+        "title": "PEGI_EN",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1462040/448855/82b84b5807bfd8021e06a6fa410c4bd30e57c94a/1750691772/hls_264_master.m3u8?t=1655416823",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256878899/movie.293x165.jpg?t=1655416823"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/ss_20a352a2c20dd4bfb08fa131dc4c2e763510f584.1920x1080.jpg?t=1789446715",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/ss_55903e74751601e42fb7f858d5c07ec048386ce2.1920x1080.jpg?t=1789446715",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/ss_ac55306d00923f2902de20bb5ade7f9cc190e8cf.1920x1080.jpg?t=1789446715",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/ss_6e30290a5de36f3274a11bd6c78f077c9e489115.1920x1080.jpg?t=1789446715",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/ss_170c616f08812827d70ac2d9099447a52e114546.1920x1080.jpg?t=1789446715"
+    ],
+    "score": "—",
+    "tagline": "Cloud Strife, um ex-operacional SOLDIER, chega à cidade de Midgar, onde o mako é a principal fonte de energia. O clássico FINAL FANTASY VII renasce com tecnologia gráfica de ponta, um novo sistema de batalha e uma aventura adicional com Yuffie Kisaragi.",
+    "description": "O FINAL FANTASY VII REMAKE é uma ousada recriação do FINAL FANTASY VII original, lançado em 1997, e conta com a orientação dos principais produtores do jogo original.\nEste jogo aclamado pela crítica, que mistura o combate tradicional baseado em comandos com ação em tempo real, faz a sua estreia no Steam juntamente com FF7R EPISODE INTERmission, um novo arco de história protagonizado por Yuffie Kisaragi.\n\n■HISTÓRIA\n\nGraças à exploração do mako, a energia vital do planeta, através dos seus reatores mako, a Shinra Electric Power Company assumiu o controlo dos destinos do mundo. Um grupo desorganizado de idealistas, conhecido como Avalanche, é um dos últimos focos de resistência.\n\nCloud, um ex-operacional SOLDIER de elite e agora mercenário, participa numa operação da Avalanche para destruir o Reator Mako 1 em Midgar. \nO ataque lança a cidade no caos e Cloud é atormentado por visões de um inimigo que pensava morto há muito. \n\nE assim começa novamente uma história que moldará o destino do mundo inteiro.\n\n* Este jogo é um remake do FINAL FANTASY VII, lançado pela primeira vez em 1997.\nÉ o primeiro título de uma série dividida em várias partes e é baseado na história do jogo original até à fuga de Midgar, com alguns elementos novos adicionados.\n\n■FF7R EPISODE INTERmission (novo episódio com Yuffie Kisaragi)\n\nFF7R EPISODE INTERmission é uma nova aventura localizada no mundo do FINAL FANTASY VII REMAKE INTERGRADE. Joga com a ninja de Wutai Yuffie Kisaragi enquanto ela se infiltra em Midgar e conspira com a Avalanche para roubar a derradeira materia da Shinra Electric Power Company.\n\n■Conteúdo incluído neste produto\n\nO FINAL FANTASY VII REMAKE INTERGRADE inclui os seguintes conteúdos:\n- Jogo completo FINAL FANTASY VII REMAKE\n- DLC \"FF7R EPISODE INTERmission\" (novo episódio com Yuffie Kisaragi)\n- Arma: Cacstar\n- Armadura: Midgar Bangle\n- Armadura: Shinra Bangle\n- Armadura: Corneo Armlet\n- Acessório: Superstar Belt\n- Acessório: Mako Crystal\n- Acessório: Seraphic Earrings\n- Carbuncle Summon Materia\n- Chocobo Chick Summon Materia\n- Cactuar Summon Materia\n\n*As armas, armaduras, acessórios e Summon Materias adicionais podem ser obtidas a partir da caixa de presentes no menu principal.\n*A arma \"Cacstar\" apenas pode ser utilizada no FF7R EPISODE INTERmission (episódio de Yuffie)",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1462040/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 55560,
+      "positive": 47941,
+      "negative": 7619,
+      "recommendPercent": 86,
+      "praise": "Trilha sonora, apresentação e a expansão de personagens queridos são pontos fortes.",
+      "caveat": "Críticas mencionam ritmo arrastado, cenas prolongadas e um sistema de combate que pode não agradar a quem prefere turnos.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1462040/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "forza-horizon-5",
+    "steamAppId": 1551360,
+    "name": "Forza Horizon 5",
+    "originalName": "FORZA HORIZON 5",
+    "year": 2021,
+    "releaseDate": "8 nov. 2021",
+    "developer": "Playground Games",
+    "publisher": "Xbox Game Studios",
+    "franchise": "Forza Horizon 5",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Corridas",
+      "Simulação",
+      "Desporto"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "PvP",
+      "PvP online",
+      "Co-op",
+      "Co-op online"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256875134",
+        "title": "Forza Horizon 5 Accolades Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1551360/442268/66eddb8cdf196bf7c8d9bb8e8895bd7f60133cc1/1750700745/hls_264_master.m3u8?t=1647525311",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256875134/movie.293x165.jpg?t=1647525311"
+      },
+      {
+        "provider": "steam",
+        "id": "256859757",
+        "title": "Forza Horizon 5 Launch Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1551360/415818/c7f56150fb05a56618bd5675f8d2770a2c9b1a20/1750700743/hls_264_master.m3u8?t=1636489104",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256859757/movie.293x165.jpg?t=1636489104"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_cf56e25a0290556ba83229eb0ab370d10be0407c.1920x1080.jpg?t=1788546569",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_00f0090174380eeaf8753bd3d1028b6772c3aebf.1920x1080.jpg?t=1788546569",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.1920x1080.jpg?t=1788546569",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0a13a7ccd38e7c3e6a5f1720050732833b53b6a8.1920x1080.jpg?t=1788546569",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_3654a5988db68f9b47740f9f6a9299682c365599.1920x1080.jpg?t=1788546569",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0bc32360d32b21abdf889422385cd753862dd73e.1920x1080.jpg?t=1788546569"
+    ],
+    "score": "—",
+    "tagline": "Explora um mundo aberto de vibrantes paisagens mexicanas, com ação automobilística ilimitada e divertida e os melhores carros do mundo.",
+    "description": "A derradeira aventura em Horizon está à tua espera! Explora o cenário vibrante e ilimitado do México, e diverte-te ao volante de centenas dos melhores carros do mundo.\n\nEsta é a tua Aventura Horizon\n\nLidera expedições deslumbrantes ao longo das vibrantes paisagens de mundo aberto em evolução constante do México. Diverte-te com a ação ao volante sem limites nos melhores carros do mundo.\n\nEste é um mundo aberto versátil\n\nExplora um mundo de contrastes e beleza admiráveis. Descobre desertos vivos, selvas verdejantes, cidades históricas, ruínas escondidas, praias selvagens, vastos desfiladeiros e um gigantesco vulcão coberto de neve.\n\nEste é um mundo aberto cheio de aventuras\n\nMergulha numa campanha intensa com centenas de desafios e recebe recompensas por participar em atividades que adoras. Conhece novas personagens e escreve o desenrolar da tua História Horizon através das missões.\n\nEste é um mundo aberto em evolução constante.\n\nEnfrenta eventos meteorológicos imponentes tais como tempestades de areia gigantes e tempestades tropicais intensas à medida que as estações únicas e dinâmicas do México mudam o rumo do mundo todas as semanas. Volta sempre para novos eventos, desafios, colecionáveis, recompensas e novas áreas para explorar. As estações nunca serão iguais. \n\nEste é um mundo aberto e social\n\nTrabalha em equipa com outros jogadores e entra no Horizon Arcade para dar continuidade à imensa diversão com desafios do outro mundo que te vão manter a ti e aos teus amigos entretidos e divertidos: não há menus, ecrãs de carregamento ou salas de espera. Conhece novos amigos no Horizon Open e Tours e partilha as tuas criações com o novo sistema de partilha de presentes da comunidade.\n\nEste é o teu mundo aberto\n\nCria as tuas próprias expressões divertidas com a nova fantástica ferramenta de jogabilidade da EventLab, incluindo corridas, desafios, acrobacias e modos de jogo completamente novos. Personaliza os teus carros mais do que nunca com as novas opções como a capacidade de abrir e fechar tejadilhos conversíveis, pintar pinças de travão e muito mais. Usa a nova funcionalidade Gift Drops para partilhar as tuas criações pessoais com a comunidade.\n\nInicia hoje a tua Aventura Horizon!",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "PvP",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1551360/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 284418,
+      "positive": 253721,
+      "negative": 30697,
+      "recommendPercent": 89,
+      "praise": "Direção acessível, variedade de carros, cenários e qualidade visual agradam aos fãs de corrida.",
+      "caveat": "Alguns jogadores consideram a progressão inchada e criticam exigências de conta ou conexão.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1551360/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "ghost-of-tsushima-director-s-cut",
+    "steamAppId": 2215430,
+    "name": "Ghost of Tsushima DIRECTOR'S CUT",
+    "originalName": "GHOST OF TSUSHIMA DIRECTOR'S CUT",
+    "year": 2024,
+    "releaseDate": "16 mai. 2024",
+    "developer": "Sucker Punch Productions, Nixxes Software",
+    "publisher": "PlayStation Publishing LLC",
+    "franchise": "Ghost of Tsushima DIRECTOR'S CUT",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "PvP",
+      "PvP online",
+      "Co-op",
+      "Co-op online"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2215430/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "257022043",
+        "title": "Launch Trailer (EN-US)",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2215430/698141/03040bb2f64897340d437089399b9815d399e2e2/1750809557/hls_264_master.m3u8?t=1716411558",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257022043/movie.293x165.jpg?t=1716411558"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/ss_51eb1a47a41271abb0aa781de576f704d95b601b.1920x1080.jpg?t=1763409398",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/ss_d60e16422fc1605181e0fedee3e2cfc1e02c750e.1920x1080.jpg?t=1763409398",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/ss_11409331d57966ef193d66ffcded569d02a4e034.1920x1080.jpg?t=1763409398",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/ss_bd593bab36968778b95ed4a1a12ec82d2350d351.1920x1080.jpg?t=1763409398",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/ss_63cc7ea967bf808c73129792d9ae8e3fdb2962bf.1920x1080.jpg?t=1763409398",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/ss_b94e296457324be29466facc1fd93a91b6189a9b.1920x1080.jpg?t=1763409398"
+    ],
+    "score": "—",
+    "tagline": "Vem aí uma tempestade. Aventura-te em Ghost of Tsushima DIRECTOR'S CUT no PC; forja o teu caminho neste jogo de ação e aventura em mundo aberto e desvenda as suas maravilhas ocultas. Da Sucker Punch Productions, Nixxes Software e PlayStation Studios.",
+    "description": "Pela primeira vez no PC, joga a aventura de Jin Sakai e descobre a experiência completa de Ghost of Tsushima com a versão Director's Cut. \n\nNo final do século XIII, o império mongol arrasou nações inteiras na sua campanha para conquistar o Oriente. A ilha de Tsushima é tudo o que separa o Japão de uma enorme frota mongol invasora liderada pelo astuto e implacável general Khotun Khan.\n\nCom a ilha a arder após a primeira investida mongol, o corajoso samurai Jin Sakai prevalece determinado. Sendo um dos últimos membros do seu clã, Jin está decidido a fazer tudo, a qualquer custo, para proteger o seu povo e salvar a sua terra. Ele terá de renunciar as tradições que o moldaram como guerreiro para forjar um novo caminho, o caminho do fantasma, e travar uma guerra atípica pela liberdade de Tsushima.\n\n Joga Ghost of Tsushima com taxas de fotogramas desbloqueadas e várias opções gráficas adaptadas a uma vasta gama de hardware, desde PCs de topo até portáteis de gaming.*\n\n Vê ainda mais ação graças à compatibilidade com as proporções ultrapanorâmica (21:9), superultrapanorâmica (32:9) e até de três monitores (48:9).*\n\n Melhora o desempenho com tecnologias de ampliação e geração de fotogramas como NVIDIA DLSS 3, AMD FSR 3 e Intel XeSS. A tecnologia NVIDIA Reflex e a tecnologia de melhoramento da qualidade de imagem NVIDIA DLAA também são suportadas.** \n\n Sincronização dos movimentos dos lábios com a dobragem japonesa — desfruta de uma experiência mais autêntica com a sincronização dos movimentos dos lábios com a dobragem japonesa, possibilitada pela renderização das sequências cinematográficas em tempo real no teu PC.\n\n Escolhe como controlas a ação: sente o feedback háptico e os gatilhos adaptativos com um comando DualSense™ ligado por cabo...***\n\n ... ou usa um rato e um teclado, que te permitem um ajuste total dos controlos.\n\n Feedback háptico — torna-te um só com a tua katana através do feedback háptico imersivo do comando DualSense™.***\n\n Gatilhos adaptativos — melhora a tua pontaria com o arco com a ajuda da resistência dos gatilhos adaptativos.***\n\n * Requer um PC e um ecrã compatíveis.\n** Requer um PC e uma placa gráfica compatíveis.\n*** É necessária uma ligação por cabo para desfrutar de toda a gama das funcionalidades do comando no jogo.",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "PvP",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/2215430/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 98930,
+      "positive": 92958,
+      "negative": 5972,
+      "recommendPercent": 94,
+      "praise": "A paisagem de Tsushima, a atmosfera e o combate de samurai conquistam muitos jogadores.",
+      "caveat": "As missões podem se repetir e parte do público acha a estrutura de mundo aberto previsível.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/2215430/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "god-of-war",
+    "steamAppId": 1593500,
+    "name": "God of War",
+    "originalName": "GOD OF WAR",
+    "year": 2022,
+    "releaseDate": "14 jan. 2022",
+    "developer": "Santa Monica Studio, Jetpack Interactive",
+    "publisher": "PlayStation Publishing LLC",
+    "franchise": "God of War",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "RPG"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256864004",
+        "title": "Features Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1593500/423179/503f509cd6c9964f790867e6cda8542789136b85/1750704708/hls_264_master.m3u8?t=1639001817",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256864004/movie.293x165.jpg?t=1639001817"
+      },
+      {
+        "provider": "steam",
+        "id": "256854972",
+        "title": "Announce Trailer PT",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1593500/407518/09e600871e471dfaa4c16e8f23e7963084840f4f/1750708279/hls_264_master.m3u8?t=1634741948",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256854972/movie.293x165.jpg?t=1634741948"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/ss_6eccc970b5de2943546d93d319be1b5c0618f21b.1920x1080.jpg?t=1763059412",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/ss_f1bff24d3967a21d303d95e11ed892e3d9113057.1920x1080.jpg?t=1763059412",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/ss_3670ba72c7e3e9c3c3225547ef2c1053504e62b8.1920x1080.jpg?t=1763059412",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/ss_93a3ca63aa2cd8c675bbb6430324ee3f2d44b845.1920x1080.jpg?t=1763059412",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/ss_1bd99270dcbd4ff9fe9c94b0d9c8ffc50ebb42c7.1920x1080.jpg?t=1763059412",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/ss_0858b868ea51d53f73bd805ba7382f027dd33dca.1920x1080.jpg?t=1763059412"
+    ],
+    "score": "93",
+    "tagline": "Com a vingança contra os deuses do Olimpo enterrada há anos no passado, Kratos vive agora como um homem mortal num reino de deuses e monstros nórdicos. É neste mundo duro e impiedoso que ele tem de lutar para sobreviver... e ensinar o seu filho a fazer o mesmo.",
+    "description": "Introdução ao reino nórdico \nCom a vingança contra os deuses do Olimpo enterrada há anos no passado, Kratos vive agora como um homem mortal num reino de deuses e monstros nórdicos. É neste mundo duro e impiedoso que ele tem de lutar para sobreviver... e ensinar o seu filho a fazer o mesmo. \n\n Aproveitar uma segunda oportunidade \nKratos volta a ser um pai. Como mentor e protetor de Atreus, um filho determinado a ganhar o seu respeito, ele vê-se forçado a enfrentar e a controlar a raiva que há muito o define, à medida que explora um mundo extremamente perigoso com o seu filho. \n\n Viaja num mundo sombrio e elemental, repleto de criaturas temíveis \nDas colunas e do mármore do ornamentado Olimpo à rudeza das florestas, montanhas e grutas do folclore nórdico pré-viking, este é um reino distintamente novo com o seu próprio panteão de criaturas, monstros e deuses. \n\nMergulha no combate físico violento \nVisto através da perspetiva de câmara ao ombro, que coloca o jogador mais perto do que nunca da ação, os combates em God of War™ espelham a crueldade, a grandiosidade e a dureza do panteão de criaturas nórdicas que Kratos vai enfrentar. A nova arma principal e as novas habilidades mantêm o espírito característico da série God of War, ao mesmo tempo que apresentam uma perspetiva de conflito que abre novos caminhos neste género de jogos. CARACTERÍSTICAS DA VERSÃO PARA PC\n\n Gráficos de alta fidelidade \nOs gráficos estonteantes foram melhorados no PC. Desfruta da verdadeira resolução 4K em dispositivos compatíveis, [MU1] com taxas de fotogramas desbloqueadas para teres o melhor desempenho. Personaliza as tuas definições através de uma vasta gama de predefinições e opções gráficas, incluindo sombras de resoluções superiores, reflexos melhorados do espaço do ecrã, adição de GTAO e SSDO e não só.\n\n Compatibilidade com NVIDIA® DLSS e Reflex \nO desempenho junta-se à qualidade. Aproveita o poder da IA da tecnologia Deep Learning Super Sampling (DLSS) da NVIDIA para aumentar as taxas de fotogramas e criar imagens belas e nítidas em GPUs compatíveis da NVIDIA. Utiliza a tecnologia de baixa latência NVIDIA Reflex das GPUs GeForce, que te permite reagir mais rapidamente e fazer combinações mais difíceis numa jogabilidade que responde como sempre desejaste.\n\n Personalização de controlos \nJoga à tua maneira. Graças à compatibilidade com os comandos sem fios DUALSHOCK®4 e DUALSENSE® — e uma vasta seleção de outros comandos — e graças à possibilidade de personalizares totalmente os controlos do rato e do teclado, podes ajustar todas as ações para se adequarem ao teu estilo de jogo.\n\n Compatível com monitores ultrapanorâmicos \nMergulha no jogo como nunca. Contempla paisagens de cortar a respiração à medida que viajas pelos reinos nórdicos no modo de ecrã panorâmico. Graças à compatibilidade com monitores ultrapanorâmicos 21:9, God of War™ oferece uma experiência de qualidade cinematográfica que expande ainda mais a cinematografia original.",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1593500/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 187057,
+      "positive": 179403,
+      "negative": 7654,
+      "recommendPercent": 96,
+      "praise": "A relação entre Kratos e Atreus e a narrativa emocional são os elogios mais fortes.",
+      "caveat": "Há críticas à variedade de inimigos, ao ritmo das lutas e a puzzles que interrompem a aventura.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1593500/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "hades",
+    "steamAppId": 1145360,
+    "name": "Hades",
+    "originalName": "HADES",
+    "year": 2020,
+    "releaseDate": "17 set. 2020",
+    "developer": "Supergiant Games",
+    "publisher": "Supergiant Games",
+    "franchise": "Hades",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Indie",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "macOS"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256801252",
+        "title": "Hades - v1.0 Launch Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1145360/312686/b0312c49135823cc34946e98148abfb8da71f0fb/1750627549/hls_264_master.m3u8?t=1600353465",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256801252/movie.293x165.jpg?t=1600353465"
+      },
+      {
+        "provider": "steam",
+        "id": "256801288",
+        "title": "Hades - v1.0 Gameplay Showcase",
+        "kind": "GAMEPLAY",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1145360/312747/37b96035b5c9c7b12455eadc7bbc7d2b3afbd2fd/1750627553/hls_264_master.m3u8?t=1600353474",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256801288/movie.293x165.jpg?t=1600353474"
+      },
+      {
+        "provider": "steam",
+        "id": "256759357",
+        "title": "Hades - Early Access Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1145360/238757/421575a200646e7cc71ed0cde4553b92cb1b5261/1750627523/hls_264_master.m3u8?t=1593023745",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256759357/movie.293x165.jpg?t=1593023745"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.1920x1080.jpg?t=1758127023",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_8a9f0953e8a014bd3df2789c2835cb787cd3764d.1920x1080.jpg?t=1758127023",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_68300459a8c3daacb2ec687adcdbf4442fcc4f47.1920x1080.jpg?t=1758127023",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_bcb499a0dd001f4101823f99ec5094d2872ba6ee.1920x1080.jpg?t=1758127023",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_8e07e477fa7ff2f88c8984bc89b9652a655da0e9.1920x1080.jpg?t=1758127023",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_34e6660705cfe47d2b2f95189c37f7cb77f75ca6.1920x1080.jpg?t=1758127023"
+    ],
+    "score": "93",
+    "tagline": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
+    "description": "Hades is a god-like rogue-like dungeon crawler that combines the best aspects of Supergiant's critically acclaimed titles, including the fast-paced action of Bastion , the rich atmosphere and depth of Transistor , and the character-driven storytelling of Pyre . BATTLE OUT OF HELL\nAs the immortal Prince of the Underworld, you'll wield the powers and mythic weapons of Olympus to break free from the clutches of the god of the dead himself, while growing stronger and unraveling more of the story with each unique escape attempt. UNLEASH THE FURY OF OLYMPUS\nThe Olympians have your back! Meet Zeus, Athena, Poseidon, and many more, and choose from their dozens of powerful Boons that enhance your abilities. There are thousands of viable character builds to discover as you go.\n\n BEFRIEND GODS, GHOSTS, AND MONSTERS\nA fully-voiced cast of colorful, larger-than-life characters is waiting to meet you! Grow your relationships with them, and experience thousands of unique story events as you learn about what's really at stake for this big, dysfunctional family. BUILT FOR REPLAYABILITY\nNew surprises await each time you delve into the ever-shifting Underworld, whose guardian bosses will remember you. Use the powerful Mirror of Night to grow permanently stronger, and give yourself a leg up the next time you run away from home. NOTHING IS IMPOSSIBLE\nPermanent upgrades mean you don't have to be a god yourself to experience the exciting combat and gripping story. Though, if you happen to be one, crank up the challenge and get ready for some white-knuckle action that will put your well-practiced skills to the test.\n\n SIGNATURE SUPERGIANT STYLE\nThe rich, atmospheric presentation and unique melding of gameplay and narrative that's been core to Supergiant's games is here in full force: spectacular hand-painted environments and a blood-pumping original score bring the Underworld to life.",
+    "highlights": [
+      "Ação",
+      "Indie",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1145360/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 310902,
+      "positive": 304643,
+      "negative": 6259,
+      "recommendPercent": 98,
+      "praise": "Combate responsivo, personagens, arte e música fazem as tentativas repetidas parecerem recompensadoras.",
+      "caveat": "O formato roguelike e a repetição das partidas podem cansar quem não gosta desse ciclo.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1145360/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "hades-ii",
+    "steamAppId": 1145350,
+    "name": "Hades II",
+    "originalName": "HADES II",
+    "year": 2025,
+    "releaseDate": "25 set. 2025",
+    "developer": "Supergiant Games",
+    "publisher": "Supergiant Games",
+    "franchise": "Hades II",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Indie",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "macOS"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1145350/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "257204779",
+        "title": "Hades II – v1.0 Launch Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1145350/1067641820/dfba9c6a8b09f5bd9b323d6e699ac685065b93d3/1758924611/hls_264_master.m3u8?t=1758942439",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257204779/2f6767807df172946f5d638093dcc1c933eb24bb/movie_600x337.jpg?t=1758942439"
+      },
+      {
+        "provider": "steam",
+        "id": "257206304",
+        "title": "Hades II – v1.0 Showcase ",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1145350/1078171228/d92eb59e06a0bc11acbab62a2fcc3981383b80fa/1758820310/hls_264_master.m3u8?t=1758942440",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257206304/15bba1cdfa1aa30b3b772c1c5535e1c6bf9d9fc1/movie_600x337.jpg?t=1758942440"
+      },
+      {
+        "provider": "steam",
+        "id": "256919374",
+        "title": "Hades II Coming Soon",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1145350/519255/5ca763163ded88a590accd47a774c99b9deec03c/1750627491/hls_264_master.m3u8?t=1715021708",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256919374/movie.293x165.jpg?t=1715021708"
+      },
+      {
+        "provider": "steam",
+        "id": "257099837",
+        "title": "Hades II Warsong Update",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1145350/831414/c475e29924acd1c3b6f49a8231230834e7e52d05/1750627511/hls_264_master.m3u8?t=1750178949",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257099837/7f2156a64f8c06471e2538f1a9b86e7c00d9174c/movie_600x337.jpg?t=1750178949"
+      },
+      {
+        "provider": "steam",
+        "id": "257065656",
+        "title": "Hades II Olympic Update",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1145350/772664/5050056d051c58906915540f8cb0f172eab1f73e/1750627505/hls_264_master.m3u8?t=1729112202",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257065656/7da92850173b26004fce56641e25711a42b96a2b/movie_600x337.jpg?t=1729112202"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_ef0f63061d0a0a9a7e46f3b84f125d25330e8f19.1920x1080.jpg?t=1779901265",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_f28befd916e59b8bf0a8a801b8a498b8adaa01eb.1920x1080.jpg?t=1779901265",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_b88cb7b48a86f07a7288bf37141f6558279f9bfc.1920x1080.jpg?t=1779901265",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_c8d2b18451a2cc4d5b4fdd78ed84a5e64e051eac.1920x1080.jpg?t=1779901265",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_f366f20f4fb699f6735581e04c7c45a1ef7bd1b8.1920x1080.jpg?t=1779901265",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_47e14ed55ac7f1bf9266b2cd5b3e4d9eae0ca54c.1920x1080.jpg?t=1779901265"
+    ],
+    "score": "94",
+    "tagline": "Battle beyond the Underworld using dark sorcery to take on the Titan of Time in this bewitching sequel to the award-winning rogue-like dungeon crawler.",
+    "description": "The first-ever sequel from Supergiant Games builds on the best aspects of the original god-like rogue-like dungeon crawler in an all-new, action-packed, endlessly replayable experience rooted in the Underworld of Greek myth and its deep connections to the dawn of witchcraft. \n BATTLE BEYOND THE UNDERWORLD\n As the immortal Princess of the Underworld, you'll explore a bigger, deeper mythic world, vanquishing the forces of the Titan of Time with the full might of Olympus behind you, in a sweeping story that continually unfolds through your every setback and accomplishment. \n MASTER WITCHCRAFT AND DARK SORCERY\n Infuse your legendary weapons of Night with ancient magick, so that none may stand in your way. Become stronger still with powerful Boons from more than a dozen Olympian gods, from Apollo to Zeus. There are nearly limitless ways to build your abilities.\n\n MINGLE WITH (MORE) GODS, GHOSTS, AND MONSTERS\n Meet a cast of dozens of fully-voiced, larger-than-life characters, including plenty of new faces and some old friends. Grow closer to them through a variety of new interactions, and experience countless unique story events based on how your journey unfolds.\n EVERY RUN IS ITS OWN ADVENTURE\n New locations, challenges, upgrade systems, and surprises await as you delve into the ever-shifting Underworld again and again. Reveal the mysteries of the Altar of Ashes, tame witchy familiars, and gather reagents using Tools of the Unseen to get closer to your goal. \n THE PERKS OF IMMORTALITY\n Thanks to a variety of permanent upgrades and the return of God Mode, you don't have to be a god yourself to experience what Hades II has to offer. But if you happen to be one, you can brave escalating challenges for greater rewards, and prove just how divine you really are. \n\n SIGNATURE SUPERGIANT STYLE\n Rich, atmospheric presentation and storytelling fused with responsive action is the hallmark of Supergiant's titles. Vivid new hand-painted environments, even smoother real-time 3D characters, and an electrifying original score make this mythic world burst with life.",
+    "highlights": [
+      "Ação",
+      "Indie",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1145350/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 124939,
+      "positive": 119578,
+      "negative": 5361,
+      "recommendPercent": 96,
+      "praise": "Arte, trilha, quantidade de conteúdo e evolução do combate recebem avaliações positivas.",
+      "caveat": "Parte dos jogadores compara a sequência à primeira e discute balanceamento e mudanças no ritmo.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1145350/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "hollow-knight",
+    "name": "Hollow Knight",
+    "originalName": "HOLLOW KNIGHT",
+    "year": 2017,
+    "releaseDate": "24 de fevereiro de 2017",
+    "developer": "Team Cherry",
+    "publisher": "Team Cherry",
+    "genres": [
+      "Aventura",
+      "Metroidvania",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "Nintendo Switch",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Um jogador"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/367520/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "id": "Y2amTl5lBYM",
+        "title": "Trailer de Hollow Knight",
+        "kind": "TRAILER"
+      },
+      {
+        "id": "guiYMjOVnOo",
+        "title": "Demonstração de gameplay",
+        "kind": "GAMEPLAY"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_d5b6edd94e77ba6db31c44d8a3c09d807ab27751.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_a81e4231cc8d55f58b51a4a938898af46503cae5.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_62e10cf506d461e11e050457b08aa0e2a1c078d0.1920x1080.jpg"
+    ],
+    "score": "90",
+    "tagline": "Desça às profundezas de Hallownest e descubra o que restou de um reino esquecido.",
+    "description": "Um metroidvania desenhado à mão em que cada caminho revela uma nova parte de Hallownest. Enfrente criaturas, aprenda habilidades e monte seu próprio mapa de um reino subterrâneo cheio de segredos.",
+    "highlights": [
+      "Mapa interconectado para explorar",
+      "Arte e trilha sonora desenhadas à mão",
+      "Chefes e desafios opcionais"
+    ],
+    "specs": {
+      "min": [
+        "Windows 7",
+        "Intel Core 2 Duo E5200",
+        "4 GB",
+        "GeForce 9600 GT ou equivalente",
+        "9 GB"
+      ],
+      "recommended": [
+        "Windows 10",
+        "Intel Core i5",
+        "8 GB",
+        "GeForce GTX 560",
+        "9 GB"
+      ]
+    },
+    "steamAppId": 367520,
+    "franchise": "Hollow Knight",
+    "category": "Jogo",
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/367520/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 568705,
+      "positive": 551132,
+      "negative": 17573,
+      "recommendPercent": 97,
+      "praise": "Hallownest, a exploração e a arte desenhada à mão são lembrados com muito carinho.",
+      "caveat": "A dificuldade e a necessidade de explorar sem muitas indicações podem frustrar alguns jogadores.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/367520/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "hollow-knight-silksong",
+    "steamAppId": 1030300,
+    "name": "Hollow Knight: Silksong",
+    "originalName": "HOLLOW KNIGHT: SILKSONG",
+    "year": 2025,
+    "releaseDate": "4 set. 2025",
+    "developer": "Team Cherry",
+    "publisher": "Team Cherry",
+    "franchise": "Hollow Knight: Silksong",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "Linux"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1030300/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "257186996",
+        "title": "Release Trailer English",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1030300/970174968/f2c514c96548048dd1dca6ef500877916b75fe5a/1755841475/hls_264_master.m3u8?t=1764916585",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257186996/ac1c4277feccd41b0866ffec5d0d40b605df1851/movie_600x337.jpg?t=1764916585"
+      },
+      {
+        "provider": "steam",
+        "id": "256742997",
+        "title": "Reveal Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1030300/209267/a7f0f21deb650c2ebbd0e7a9bcd44a1b8c8b5868/1751178761/hls_264_master.m3u8?t=1755838174",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256742997/movie.293x165.jpg?t=1755838174"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/26950369fe4b03c2268620eb9815c8a246aa0b06/ss_26950369fe4b03c2268620eb9815c8a246aa0b06.1920x1080.jpg?t=1776125736",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/09ccaa6c16f158f9df8298feb5d196098506a028/ss_09ccaa6c16f158f9df8298feb5d196098506a028.1920x1080.jpg?t=1776125736",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/d1a893ec6357b347a55ed929833ba793b57a79d2/ss_d1a893ec6357b347a55ed929833ba793b57a79d2.1920x1080.jpg?t=1776125736",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/856e33e755a0b9a785c645d116036516ea08812b/ss_856e33e755a0b9a785c645d116036516ea08812b.1920x1080.jpg?t=1776125736",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/8e09f2b2eedd3fa9b4479dd5c26d8bdf60562478/ss_8e09f2b2eedd3fa9b4479dd5c26d8bdf60562478.1920x1080.jpg?t=1776125736",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/d907d0cc2b10b5ea4788b8d502cc27787d520c1d/ss_d907d0cc2b10b5ea4788b8d502cc27787d520c1d.1920x1080.jpg?t=1776125736"
+    ],
+    "score": "90",
+    "tagline": "Discover a vast, haunted kingdom in Hollow Knight: Silksong! Explore, fight and survive as you ascend to the peak of a land ruled by silk and song.",
+    "description": "Become the Princess Knight\n As the lethal hunter Hornet, adventure through a kingdom ruled by silk and song! Captured and taken to this unfamiliar world, prepare to battle mighty foes and solve ancient mysteries as you ascend on a deadly pilgrimage to the kingdom’s peak.\n\n Hollow Knight: Silksong is the epic sequel to Hollow Knight, the award winning action-adventure. Journey to all-new lands, discover new powers, battle vast hordes of bugs and beasts and uncover secrets tied to your nature and your past. \n\n Game Features\n Discover the fallen insect kingdom of Pharloom! Explore mossy grottos, gilded cities and misted moors as you ascend to the shining citadel at the top of the world.\n\n Engage in lethal acrobatic action! Wield a huge suite of deadly moves as you dance between foes in swift, beautiful combat.\n\n Craft powerful tools! Master an ever-expanding arsenal of weapons, traps, and mechanisms to vanquish your enemies and explore new heights.\n\n Solve shocking quests! Hunt down rare beasts and solve ancient mysteries to grant the wishes of the downtrodden and restore the kingdom’s hope.\n\n Face over 200 ferocious foes! Beasts and hunters, monsters and knights. Defeat them all with bravery and skill!\n\n Vanquish over 40 legendary bosses! Battle fabled heroes and fallen kings in epic combat to decide the kingdom's fate.\n\n Challenge Steel Soul mode! Once you conquer the kingdom, test your skills in a new mode that presents a more formidable challenge.\n\n Experience a stunning orchestral score! Hollow Knight’s award-winning composer, Christopher Larkin, brings melancholy melodies, symphonic strings and heart-thumping, soul strumming boss themes to the adventure.",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1030300/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 428213,
+      "positive": 383520,
+      "negative": 44693,
+      "recommendPercent": 90,
+      "praise": "Combate, animação e construção do mundo são elogiados por quem se conecta à aventura.",
+      "caveat": "As críticas consultadas apontam dificuldade punitiva, deslocamentos longos e progressão frustrante.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1030300/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "it-takes-two",
+    "steamAppId": 1426210,
+    "name": "It Takes Two",
+    "originalName": "IT TAKES TWO",
+    "year": 2021,
+    "releaseDate": "25 mar. 2021",
+    "developer": "Hazelight Studios",
+    "publisher": "Electronic Arts",
+    "franchise": "It Takes Two",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Co-op",
+      "Co-op online",
+      "Co-op, ecrã partilhado/dividido"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1426210/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256827093",
+        "title": "Official Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1426210/356092/0165ad2494097e40af29c015e8948175c3fb97a8/1750688156/hls_264_master.m3u8?t=1616514535",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256827093/movie.293x165.jpg?t=1616514535"
+      },
+      {
+        "provider": "steam",
+        "id": "256825938",
+        "title": "#5",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1426210/354187/6ff654f630353840eb67702884d2d7827c676457/1750686862/hls_264_master.m3u8?t=1615809022",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256825938/movie.293x165.jpg?t=1615809022"
+      },
+      {
+        "provider": "steam",
+        "id": "256813190",
+        "title": "Friends Pass",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1426210/332824/ea5dc1a28710c18ca33602ef0a6b2dfe06693142/1750686858/hls_264_master.m3u8?t=1607655633",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256813190/movie.293x165.jpg?t=1607655633"
+      },
+      {
+        "provider": "steam",
+        "id": "256813189",
+        "title": "Reveal",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1426210/332823/5130787ad6a22c30c84b2f33f4b990878dfa2b33/1750686827/hls_264_master.m3u8?t=1607655625",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256813189/movie.293x165.jpg?t=1607655625"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/ss_3e59753eefaba9a7704a18e902b48e8d38e95e0b.1920x1080.jpg?t=1777395376",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/ss_6e987a0678b013bfd0073a9ac4703e1f04ca4dea.1920x1080.jpg?t=1777395376",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/ss_fdac523e3ea4d2f32a44449bb8c224857563bd7d.1920x1080.jpg?t=1777395376",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/ss_4a62bc8fa398fc5b2094a6225dc5ecff9485f824.1920x1080.jpg?t=1777395376",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/ss_a15164ddd357ab3c0b2aff575a6b215b2d91b406.1920x1080.jpg?t=1777395376",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/ss_d7a931229cbf1cc25975bb5860cbde5b9bbc826a.1920x1080.jpg?t=1777395376"
+    ],
+    "score": "89",
+    "tagline": "Entra na caminhada mais louca da tua vida em It Takes Two. Convida um amigo para jogar gratuitamente com o Passe de Amigo* e trabalha em conjunto em toda a variedade de desafios de jogo alegres e inquietantes.",
+    "description": "Entra na aventura mais louca da tua vida em It Takes Two, um novo género de aventura de plataforma, criado exclusivamente para Coop. Convida um amigo para jogar gratuitamente com o Passe de Amigo* e trabalha em conjunto em toda a variedade de desafios de jogo alegres e inquietantes. Joga com o casal em confronto, Cody e May, dois humanos transformados em bonecos por um feitiço mágico. Em conjunto, presos num mundo fantástico em que o imprevisível está ao virar da esquina, são recorrentemente desafiados pela salvação do seu relacionamento fraturado. \n\nDomina as habilidades de personagens únicas e associadas em todos os novos níveis. Ajudem-se mutuamente através de obstáculos inesperados e momentos hilariantes. Chuta as caudas peludas de esquilos mafiosos, pilota um par de cuecas, sê DJ num clube noturno agitado e desliza de trenó através de um globo de neve mágico. Abraça uma história sincera e hilariante onde a narrativa e a jogabilidade tecem uma experiência única e metafórica. \n\nIt Takes Two é desenvolvido pelo estúdio premiado, Hazelight, líder da indústria de jogo cooperativo. Estão prestes a levar-te numa aventura maravilhosa onde apenas uma coisa é certa: somos melhores juntos.\n\n CARACTERÍSTICAS PRINCIPAIS \n\n Pura perfeição cooperativa — Convida um amigo a jogar gratuitamente com o Remote Play Together** e vive uma aventura entusiasmante contruída puramente para dois. Escolhe entre jogar no sofá ou em coop. online com ecrã dividido e enfrenta desafios constantes onde a única forma de os superar é trabalhando em conjunto.\n\n Jogabilidade fluída e inquietante — Desde os aspiradores a vácuo aos gurus do amor, nunca sabes o que enfrentarás a seguir. Repleto de desafios inovadores no género e de novas capacidades de personagem para dominares em todos os níveis, vive uma fusão metafórica de jogabilidade e narrativa que superam a fronteira da narrativa interativa. \n\n Um Conto Universal de Relacionamentos — Descobre uma história comovente e sincera sobre os desafios da boa convivência. Ajuda Cody e May a saber como superar as suas incompatibilidades. Conhece um elenco diversificado de personagens estranhas e cativantes. Junta forças e segue numa aventura que irás apreciar em conjunto!\n ACERCA DE HAZELIGHT \nHazelight é um estúdio de desenvolvimento de jogos independente e premiado com base em Estocolmo, na Suécia. Fundado em 2014 por Josef Fares (realizador de cinema e criador do premiado jogo Brothers: A Tale of Two Sons), Hazelight empenha-se a superar os limites criativos do que é possível nos jogos. Em 2018, Hazelight lançou o jogo vencedor de um BAFTA - A Way Out - o primeiro jogo de sempre cooperativo e de aventura de ação na terceira pessoa — como parte do programa EA Originals. \n\n ACERCA DO EA ORIGINALS \nO EA Originals ajuda a iluminar alguns dos mais apaixonados, independentes e talentosos estúdios de jogos do mundo inteiro. Descobre experiências inovadoras e inesquecíveis de jogos de fabricantes de jogos altamente criativos que adoram encantar e inspirar.",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "Co-op",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1426210/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 273605,
+      "positive": 261134,
+      "negative": 12471,
+      "recommendPercent": 95,
+      "praise": "A variedade de fases e a cooperação obrigatória criam momentos divertidos para jogar em dupla.",
+      "caveat": "Humor e personagens dividem opiniões, e algumas avaliações acham puzzles ou chefes pouco inspirados.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1426210/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "minecraft",
+    "name": "Minecraft",
+    "originalName": "MINECRAFT",
+    "year": 2011,
+    "releaseDate": "18 de novembro de 2011",
+    "developer": "Mojang Studios",
+    "publisher": "Mojang Studios",
+    "genres": [
+      "Sandbox",
+      "Sobrevivência",
+      "Aventura"
+    ],
+    "platforms": [
+      "PC",
+      "Consoles",
+      "Celulares"
+    ],
+    "modes": [
+      "Um jogador",
+      "Multijogador online"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1928870/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "id": "MmB9b5njVbA",
+        "title": "Trailer oficial de Minecraft",
+        "kind": "TRAILER"
+      },
+      {
+        "id": "qNMfF9TYETM",
+        "title": "Trailer de Java e Bedrock",
+        "kind": "TRAILER"
+      }
+    ],
+    "screenshots": [
+      "https://img.youtube.com/vi/MmB9b5njVbA/hqdefault.jpg",
+      "https://img.youtube.com/vi/qNMfF9TYETM/hqdefault.jpg"
+    ],
+    "score": "93",
+    "tagline": "Explore, construa e invente seu próprio jeito de jogar.",
+    "description": "Um sandbox de blocos sobre exploração, construção e sobrevivência. O mundo é gerado proceduralmente, e cada jogador pode transformar seus recursos em casas, mecanismos, aventuras e histórias próprias.",
+    "highlights": [
+      "Criatividade sem uma rota obrigatória",
+      "Sobrevivência, construção e exploração",
+      "Mundos para jogar sozinho ou com amigos"
+    ],
+    "steamAppId": null,
+    "franchise": "Minecraft",
+    "category": "Jogo",
+    "availability": "Lançado",
+    "sourceUrl": "",
+    "communityReview": null
+  },
+  {
+    "id": "persona-5-royal",
+    "steamAppId": 1687950,
+    "name": "Persona 5 Royal",
+    "originalName": "PERSONA 5 ROYAL",
+    "year": 2022,
+    "releaseDate": "20 out. 2022",
+    "developer": "ATLUS",
+    "publisher": "SEGA",
+    "franchise": "Persona 5 Royal",
+    "category": "Jogo",
+    "genres": [
+      "RPG"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1687950/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256911919",
+        "title": "Launch Trailer (Unrated)",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1687950/506609/4ee1371464ce2149f69f89c36b9f906e369db2f1/1750725763/hls_264_master.m3u8?t=1722428147",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256911919/movie.293x165.jpg?t=1722428147"
+      },
+      {
+        "provider": "steam",
+        "id": "256901688",
+        "title": "Pre-Purchase Trailer (Unrated)",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1687950/489147/4fcaa04edfbb3489dcda45a463851fe76e216736/1750725734/hls_264_master.m3u8?t=1663167631",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256901688/movie.293x165.jpg?t=1663167631"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/ss_663171dc3afce8fe987e57e8659f91b69faa39bc.1920x1080.jpg?t=1783356822",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/ss_a3258aba84ae2f2ff13a02a160f7495bfc152adb.1920x1080.jpg?t=1783356822",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/ss_ddcc016b8e5c434ccbd1a89c0157ce73acf905ae.1920x1080.jpg?t=1783356822",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/ss_c665872b4c5cb3a4e4fd3a4abde97ee60fe51e33.1920x1080.jpg?t=1783356822",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/ss_63d2164bf39a43905e9602381f43a9ad4ab46dea.1920x1080.jpg?t=1783356822",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/ss_38d09e40dd56df43a1bb083dc94e27cb1360b526.1920x1080.jpg?t=1783356822"
+    ],
+    "score": "95",
+    "tagline": "Lidera os Phantom Thieves of Hearts neste premiado RPG por turnos cheio de estilo e repleto de masmorras, com personalização de grupos, combate estratégico e fusão Persona. Explora Tóquio, constrói relações, combate Shadows e infiltra-te nas mentes dos corruptos para que mudem o seu comportamento!",
+    "description": "Prepara-te para uma experiência RPG galardoada com esta edição definitiva do Persona 5 Royal, que inclui um monte de conteúdo transferível adicional! \n\n Forçado a transferir-se para um liceu em Tóquio, o protagonista tem um sonho estranho. “És realmente um prisioneiro do destino. Num futuro próximo, a ruína espera por ti.” Com o objetivo da “reabilitação” pendente, ele terá de salvar outros dos seus desejos sombrios ao vestir a máscara de um Phantom Thief. \n\n Principais destaques:\n - Explora Tóquio, desbloqueia Personas, personaliza a tua base de operações, descobre finais alternativos e mais ainda\n - Torna-te o melhor Phantom Thief e desafia as convenções, descobre o poder dentro de ti e luta pela justiça na versão definitiva do Persona 5 Royal\n - Inclui mais de 40 itens de conteúdos adicionais lançados anteriormente \n - Escolhe entre as vozes em japonês e inglês",
+    "highlights": [
+      "RPG",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1687950/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 143578,
+      "positive": 138315,
+      "negative": 5263,
+      "recommendPercent": 96,
+      "praise": "Estilo visual, elenco e o vínculo com os Phantom Thieves formam a experiência mais elogiada.",
+      "caveat": "A campanha longa e a necessidade de conexão em alguns cenários de uso são pontos de atenção citados.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1687950/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "portal-2",
+    "steamAppId": 620,
+    "name": "Portal 2",
+    "originalName": "PORTAL 2",
+    "year": 2011,
+    "releaseDate": "18 abr. 2011",
+    "developer": "Valve",
+    "publisher": "Valve",
+    "franchise": "Portal 2",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "platforms": [
+      "PC",
+      "Linux"
+    ],
+    "modes": [
+      "Co-op",
+      "Co-op online",
+      "Co-op, ecrã partilhado/dividido"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/620/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "5787",
+        "title": "Portal 2 E3 Demo (Excursion Funnels)",
+        "kind": "GAMEPLAY",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/620/3746/0f4bee66d490b637707ac4fca3e850f2cc2d3b2a/1750108721/hls_264_master.m3u8?t=1682715616",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5787/movie.293x165.jpg?t=1682715616"
+      },
+      {
+        "provider": "steam",
+        "id": "80822",
+        "title": "Portal 2 Remix Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/620/5096/2bbd128dd4e1d90aa6f688fb91e6665a301f48c5/1750108756/hls_264_master.m3u8?t=1683129612",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/80822/movie.293x165.jpg?t=1683129612"
+      },
+      {
+        "provider": "steam",
+        "id": "81613",
+        "title": "Portal 2 - Perpetual Testing Initiative",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/620/7495/c992fec9601198bd42fc3563a62c932b8dc032cb/1750108756/hls_264_master.m3u8?t=1682715589",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/81613/movie.293x165.jpg?t=1682715589"
+      },
+      {
+        "provider": "steam",
+        "id": "5926",
+        "title": "Portal 2 Co-op Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/620/4105/75674acd6517bf86cad79034131dc7853c2967cb/1750109925/hls_264_master.m3u8?t=1682715596",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5926/movie.293x165.jpg?t=1682715596"
+      },
+      {
+        "provider": "steam",
+        "id": "5739",
+        "title": "Portal 2 Teaser",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/620/3670/be99f50a782b0258dcf3d6b0d0d3d24c28da0568/1750108717/hls_264_master.m3u8?t=1682715602",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5739/movie.293x165.jpg?t=1682715602"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/ss_f3f6787d74739d3b2ec8a484b5c994b3d31ef325.1920x1080.jpg?t=1790187113",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/ss_6a4f5afdaa98402de9cf0b59fed27bab3256a6f4.1920x1080.jpg?t=1790187113",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/ss_0cdd90fafc160b52d08b303d205f9fd4e83cf164.1920x1080.jpg?t=1790187113",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/ss_ec35a739b4b33270eb170d9e561c5b016cba50a6.1920x1080.jpg?t=1790187113",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/ss_3d13161104a04603a0524536770c5f74626db4c0.1920x1080.jpg?t=1790187113",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/ss_8a772608d29ffd56ac013d2ac7c4388b96e87a21.1920x1080.jpg?t=1790187113"
+    ],
+    "score": "95",
+    "tagline": "A \"Iniciativa de Testes Perpétuos\" foi expandida para permitir que cries puzzles co-op para ti e os teus amigos!",
+    "description": "O Portal 2 é baseado na premiada fórmula de jogabilidade, história e música inovadoras que garantiu ao Portal original mais de 70 prémios e criou um culto entre os fãs.\n\n A porção de um jogador de Portal 2 introduz um elenco de novas personagens dinâmicas, novos elementos de puzzle e um conjunto muito maior de tortuosas câmaras de teste. Os jogadores irão explorar áreas nunca antes vistas dos Laboratórios da Aperture Science e serão reunidos com GLaDOS, o computador ocasionalmente homicida que os guiou através do jogo original.\n\n O modo cooperativo de dois jogadores apresenta a sua própria campanha com uma história e câmaras de teste únicas e duas novas personagens jogáveis. Este novo modo força os jogadores a pôr em causa tudo aquilo que pensavam saber acerca dos portais. O sucesso irá não só requerer que os jogadores ajam cooperativamente, mas também que pensem cooperativamente.\n\n Características do produto \n Modo de um jogador extensivo: Com jogabilidade de próxima geração e uma história fascinante.\n\n Modo cooperativo completo para duas pessoas: Modo multijogador com a sua própria história, personagens e jogabilidade dedicadas.\n\n Física avançada: Permite a criação de todo um novo conjunto de interessantes desafios, produzindo um jogo muito maior, sem aumentar a sua dificuldade.\n\n Música original. \n\n Sequela massiva: O Portal original foi nomeado Jogo do Ano em 2007 por mais de 30 publicações em todo o mundo. \n\n Ferramentas de edição: As ferramentas de edição do Portal 2 estão incluídas.",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "Co-op",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/620/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 469764,
+      "positive": 463689,
+      "negative": 6075,
+      "recommendPercent": 99,
+      "praise": "Puzzles inventivos, humor e ritmo de campanha continuam agradando em novas partidas.",
+      "caveat": "Alguns relatos citam limitações de compatibilidade e suporte em sistemas ou controles específicos.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/620/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "red-dead-redemption-2",
+    "name": "Red Dead Redemption 2",
+    "originalName": "RED DEAD REDEMPTION 2",
+    "year": 2018,
+    "releaseDate": "26 de outubro de 2018",
+    "developer": "Rockstar Studios",
+    "publisher": "Rockstar Games",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Mundo aberto"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Um jogador",
+      "Multijogador online"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "id": "eaW0tYpxyp0",
+        "title": "Trailer oficial #3",
+        "kind": "TRAILER"
+      },
+      {
+        "id": "Dw_oH5oiUSE",
+        "title": "Vídeo oficial de gameplay",
+        "kind": "GAMEPLAY"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_4ce07ae360b166f0f650e9a895a3b4b7bf15e34f.1920x1080.jpg"
+    ],
+    "score": "93",
+    "tagline": "O fim da era do Velho Oeste está próximo. Até onde você iria pelo seu grupo?",
+    "description": "Acompanhe Arthur Morgan e a gangue Van der Linde em uma história de sobrevivência no fim da era dos fora da lei. Um mundo aberto detalhado mistura missões, encontros inesperados e atividades pelo Oeste americano.",
+    "highlights": [
+      "Narrativa centrada em Arthur Morgan",
+      "Mundo aberto reativo e detalhado",
+      "Exploração e atividades variadas"
+    ],
+    "steamAppId": 1174180,
+    "franchise": "Red Dead Redemption 2",
+    "category": "Jogo",
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1174180/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 936858,
+      "positive": 867133,
+      "negative": 69725,
+      "recommendPercent": 93,
+      "praise": "Narrativa, personagens e atenção aos detalhes do mundo aberto são frequentemente celebrados.",
+      "caveat": "Ritmo deliberado, bugs persistentes e problemas com launcher ou acesso aparecem entre as ressalvas.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1174180/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "resident-evil-4",
+    "steamAppId": 2050650,
+    "name": "Resident Evil 4",
+    "originalName": "RESIDENT EVIL 4",
+    "year": 2023,
+    "releaseDate": "23 mar. 2023",
+    "developer": "CAPCOM Co., Ltd.",
+    "publisher": "CAPCOM Co., Ltd.",
+    "franchise": "Resident Evil 4",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256998127",
+        "title": "08【RE4】_GELaunchPV_Multi_BR_FullHD_DJCTQ_好評発売中.mp4",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2050650/657548/d66cd4cfb24cc35f67d237b146e00ffd2df5f6bd/1750745210/hls_264_master.m3u8?t=1730246640",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256998127/movie.293x165.jpg?t=1730246640"
+      },
+      {
+        "provider": "steam",
+        "id": "256938325",
+        "title": "08【RE4】_PV3_Multi_BR_FullHD_DJCTQ_AfterRelease",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/2050650/552832/74e87283277f47b96027be205d63f4866add8112/1750745169/hls_264_master.m3u8?t=1680071415",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256938325/movie.293x165.jpg?t=1680071415"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_59d1b19964cc532213df92c8287b75a0bffeb33c.1920x1080.jpg?t=1772502922",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_ab807f8ad9e968a620777caf483cb6020367b9ee.1920x1080.jpg?t=1772502922",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0442f7fb4327d79802c2db8ea8d23d228a28d896.1920x1080.jpg?t=1772502922",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_69810f4cd155912fdfdd21da70181df7d454c874.1920x1080.jpg?t=1772502922",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0596bac955340495562f3ff2538756ebd9a7f073.1920x1080.jpg?t=1772502922",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0554b945aafc847d55f780f7968de00aafa968a3.1920x1080.jpg?t=1772502922"
+    ],
+    "score": "91",
+    "tagline": "A sobrevivência é apenas o início. Com jogabilidade melhorada, uma história reimaginada e grafismos detalhados, Resident Evil 4 é o renascer de um clássico. Volta a viver o pesadelo que revolucionou os jogos de terror e sobrevivência.",
+    "description": "A sobrevivência é apenas o início.\n\nPassaram seis anos desde o desastre biológico de Raccoon City. O agente Leon S. Kennedy, um dos poucos sobreviventes do incidente, foi enviado para salvar a filha raptada do presidente. Leon consegue encontrá-la numa aldeia isolada na Europa, onde algo terrível terá acontecido aos seus habitantes. Assim sobe a cortina desta história de salvamento e terror, onde a vida e a morte, o terror e a catarse, se encontram.\n\nCom jogabilidade melhorada, uma história reimaginada e grafismos detalhados, Resident Evil 4 é o renascer de um clássico.\n\nVolta a viver o pesadelo que revolucionou os jogos de terror e sobrevivência.",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/2050650/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 288848,
+      "positive": 281281,
+      "negative": 7567,
+      "recommendPercent": 97,
+      "praise": "Combate, atmosfera e vontade de rejogar são destaques para muitos fãs do remake.",
+      "caveat": "Parte dos fãs prefere o original e critica mudanças, cortes ou diferenças de ritmo.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/2050650/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "resident-evil-village",
+    "steamAppId": 1196590,
+    "name": "Resident Evil Village",
+    "originalName": "RESIDENT EVIL VILLAGE",
+    "year": 2021,
+    "releaseDate": "6 mai. 2021",
+    "developer": "CAPCOM Co., Ltd.",
+    "publisher": "CAPCOM Co., Ltd.",
+    "franchise": "Resident Evil Village",
+    "category": "Jogo",
+    "genres": [
+      "Ação"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1196590/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256825274",
+        "title": "Village_PV3_Multi_03_DJCTQ_FullHD.mp4",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1196590/353097/ab42831befc22df81eaefe3d5e9fc239f335dfc3/1750637462/hls_264_master.m3u8?t=1615523888",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256825274/movie.293x165.jpg?t=1615523888"
+      },
+      {
+        "provider": "steam",
+        "id": "256825260",
+        "title": "Village_2ndTrailer_Multi_03_DJCTQ_FullHD.mp4",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1196590/353082/4db66add7f0276c31c530a14d604c5c76fef6ce9/1750637358/hls_264_master.m3u8?t=1615523986",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256825260/movie.293x165.jpg?t=1615523986"
+      },
+      {
+        "provider": "steam",
+        "id": "256789696",
+        "title": "Village-SpecialDevMessage_ASIA_1080p.mp4",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1196590/293064/2cf72d2ac972bfd4babb96fa531b414cd6b0449a/1750637269/hls_264_master.m3u8?t=1592542872",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256789696/movie.293x165.jpg?t=1592542872"
+      },
+      {
+        "provider": "steam",
+        "id": "256788760",
+        "title": "Village_AnnounceTrailer_Multi_03_DJCTQ_FullHD.mp4",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1196590/291698/fd3804864015aea09720f751949372c933b7fc86/1750837071/hls_264_master.m3u8?t=1591953107",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256788760/movie.293x165.jpg?t=1591953107"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_d25704b01be292d1337df4fea0fba2aab322b58a.1920x1080.jpg?t=1776927117",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_8113ec993ec474055c4cdce5ee86f91f7cf6663f.1920x1080.jpg?t=1776927117",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_50283e6df9d2f3f24ff4a1a36a94ae307e21cee8.1920x1080.jpg?t=1776927117",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_363d9c05ee0a974b766938610a3352e7a89b9c92.1920x1080.jpg?t=1776927117",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_e2bdaa9a0eeae714b3ad3ba49c9ae83a3930f08e.1920x1080.jpg?t=1776927117",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_d296efbc9a5d87bf20b2ea19134f35ba203ae813.1920x1080.jpg?t=1776927117"
+    ],
+    "score": "83",
+    "tagline": "Vive o horror da sobrevivência como nunca antes em Resident Evil Village, a oitava edição da saga Resident Evil. Com gráficos hiperdetalhados, ação na primeira pessoa intensa e uma narrativa magistral, o terror nunca foi tão realista e inevitável.",
+    "description": "Vive o horror da sobrevivência como nunca antes em Resident Evil Village, a oitava edição da saga Resident Evil.\n\nA nova narrativa decorre alguns anos após os horríveis acontecimentos do aclamado Resident Evil 7 Biohazard, e começa com Ethan Winters e a sua esposa Mia a viverem pacificamente num local novo e livre dos pesadelos passados. Empenhados em construir uma nova vida juntos, a tragédia volta a atingi-los.\n\n CARATERÍSTICAS \n Ação na primeira pessoa: os jogadores vão assumir o papel de Ethan Winters, com quem vão viver todas as perseguições aterrorizantes e lutas bem de perto, numa perspetiva na primeira pessoa. \n\n Faces familiares e novos inimigos: Chris Redfield tem sido um habitual herói da série Resident Evil, mas a sua aparição em Resident Evil Village aparenta ter motivações sinistras. Uma série de novos adversários que habitam a enigmática vila caçam incansavelmente Ethan, dificultando os seus movimentos enquanto ele tenta compreender o novo pesadelo em que se encontra.",
+    "highlights": [
+      "Ação",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1196590/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 157234,
+      "positive": 150370,
+      "negative": 6864,
+      "recommendPercent": 96,
+      "praise": "Cenários marcantes, exploração e a mistura de ação com horror conquistam jogadores.",
+      "caveat": "Alguns sentem falta do terror mais intenso de RE7 e criticam a história ou o tom mais voltado à ação.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1196590/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "sea-of-stars-sunset-edition",
+    "steamAppId": 1244090,
+    "name": "Sea of Stars: Sunset Edition",
+    "originalName": "SEA OF STARS: SUNSET EDITION",
+    "year": 2023,
+    "releaseDate": "28 ago. 2023",
+    "developer": "Sabotage Studio",
+    "publisher": "Sabotage Studio",
+    "franchise": "Sea of Stars: Sunset Edition",
+    "category": "Jogo",
+    "genres": [
+      "Aventura",
+      "Indie",
+      "RPG"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Co-op",
+      "Co-op, ecrã partilhado/dividido"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1244090/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256995688",
+        "title": "Sea of Stars - Accolades Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1244090/653097/1c9f814a652a3de4a222d665bb6fd42aa06f41da/1750649021/hls_264_master.m3u8?t=1713369240",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256995688/movie.293x165.jpg?t=1713369240"
+      },
+      {
+        "provider": "steam",
+        "id": "257071675",
+        "title": "Sea of Stars - Dawn of Equinox",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/1244090/782766/f4333bf152e3406247516b59d5d5b286a4d157af/1750649024/hls_264_master.m3u8?t=1731423723",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257071675/395fdfe6a861bc5dbf4116f9434884d00d1445e7/movie_600x337.jpg?t=1731423723"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/ss_f756ff477590284c7192ffcef99237de056e4aeb.1920x1080.jpg?t=1780931183",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/ss_c250a7fd789b3cbab5ca8e99e3530cf933656ad1.1920x1080.jpg?t=1780931183",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/ss_889d4ddea7d0884d9d370dd280878570824e68fe.1920x1080.jpg?t=1780931183",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/ss_cb9259d083c9d42db9b1f1197e030f8f85d42198.1920x1080.jpg?t=1780931183",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/ss_e7ac3a6e5ebe5f4561fc46d116c33678cf4ba811.1920x1080.jpg?t=1780931183",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/ss_3fe41c00a7122c63aa05b4ea331c6f995e356788.1920x1080.jpg?t=1780931183"
+    ],
+    "score": "87",
+    "tagline": "Sea of Stars is a turn-based RPG inspired by the classics. It tells the story of two Children of the Solstice who will combine the powers of the sun and moon to perform Eclipse Magic, the only force capable of fending off the monstrous creations of the evil alchemist known as The Fleshmancer.",
+    "description": "Promising the Sabotage touch in every system, Sea of Stars aims to modernize the classic RPG in terms of turn-based combat, storytelling, exploration and interactions with the environment, while still offering a hearty slice of nostalgia and good old, simple fun. \n\n Pressing the action button in sync with the animations increases damage output while reducing incoming damage. Along with timed hits, combat features multi-character combo attacks, boosting, and a strategic \"locks\" system offering options to play with different damage types in order to hinder enemies while they are channeling powerful attacks or spells, all in an immersive take on the genre; no random encounters, no transitions to separate battlefields, and no grinding. \n\n Swim, climb, vault, jump off or hoist up ledges as you traverse seamlessly through the world with a navigation system based on platformer expertise that breaks free from the classic bound-to-the-grid tileset movement. \n\n Our custom-made render pipeline allows the creation of a breathtaking world coming to life by pushing the limits of 2D pixel-art games. \n\n Dozens of original characters and story arcs will take you on a captivating journey. Sometimes epic, sometimes silly, and other times emotional, Sea of Stars does its RPG duty of exploring classic themes of adventure and friendship, while also being chock-full of the unexpected twists and events you’d expect from a Sabotage production.\n\n There are many ways to hang out in the world of Sea of Stars if you feel the need for a change of pace in your adventures. Sailing, cooking, fishing, stopping by a tavern to listen to a song or play the infamous tabletop game known as \"Wheels\".....every system has been designed to deliver an experience that pays respect to retro classics, while rethinking in some areas to offer a smooth and modernized experience.\n\n Sea of Stars’ adventure is playable in its entirety by up to three players. Allies can drop in and out anytime to traverse the world together and master the Co-op Timed Hits combat mechanic. Also available via Steam Remote Play Together.",
+    "highlights": [
+      "Aventura",
+      "Indie",
+      "Co-op",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/1244090/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 15874,
+      "positive": 14020,
+      "negative": 1854,
+      "recommendPercent": 88,
+      "praise": "Pixel art, iluminação e música evocam JRPGs clássicos de forma atraente.",
+      "caveat": "As críticas apontam narrativa, personagens e combate menos envolventes que a apresentação sugere.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/1244090/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "sekiro-shadows-die-twice-goty-edition",
+    "steamAppId": 814380,
+    "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+    "originalName": "SEKIRO™: SHADOWS DIE TWICE - GOTY EDITION",
+    "year": 2019,
+    "releaseDate": "21 mar. 2019",
+    "developer": "FromSoftware, Inc.",
+    "publisher": "Activision (Excluding Japan and Asia), FromSoftware, Inc. (Japan), 方块游戏 (Asia)",
+    "franchise": "Sekiro™: Shadows Die Twice - GOTY Edition",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/814380/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256806899",
+        "title": "Sekiro™: Shadows Die Twice - Game of the Year Edition",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/814380/322401/63cf1fdf9c16536f04b08a5b1939909f7a99a340/1750586450/hls_264_master.m3u8?t=1603837979",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256806899/movie.293x165.jpg?t=1603837979"
+      },
+      {
+        "provider": "steam",
+        "id": "256770769",
+        "title": "Sekiro: Shadows Die Twice - Accolades Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/814380/258713/980f4296ce65afd30dae955677b95c54fb7f0aa5/1750586418/hls_264_master.m3u8?t=1576898083",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256770769/movie.293x165.jpg?t=1576898083"
+      },
+      {
+        "provider": "steam",
+        "id": "256745700",
+        "title": "Sekiro: Shadows Die Twice - Gameplay 101 Trailer",
+        "kind": "GAMEPLAY",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/814380/214066/8028d7d95132f516fe298ed58b88905e2a33757c/1750586397/hls_264_master.m3u8?t=1553549458",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256745700/movie.293x165.jpg?t=1553549458"
+      },
+      {
+        "provider": "steam",
+        "id": "256745081",
+        "title": "Sekiro: Shadows Die Twice - Launch Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/814380/212986/8ba6fe8bdcdc79872f903015b5d52e1121c1fdee/1750586380/hls_264_master.m3u8?t=1553549470",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256745081/movie.293x165.jpg?t=1553549470"
+      },
+      {
+        "provider": "steam",
+        "id": "256742445",
+        "title": "Sekiro: Shadows Die Twice - Story Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/814380/208296/626c8f3fa4310e48981ed9642700c23fe18bfc6b/1750586375/hls_264_master.m3u8?t=1553550374",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256742445/movie.293x165.jpg?t=1553550374"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0.1920x1080.jpg?t=1762888662",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_2685dd844a2a523b6c7ec207d46a538db6a908cd.1920x1080.jpg?t=1762888662",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_15f0e9982621aed44900215ad283811af0779b1d.1920x1080.jpg?t=1762888662",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_1e6f5540866a5564d65df915c22fe1e57e336a6f.1920x1080.jpg?t=1762888662",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_3d6b38c382c0eafb02dc90d22f33fd292e4e5cf3.1920x1080.jpg?t=1762888662"
+    ],
+    "score": "88",
+    "tagline": "Jogo do ano - The Game Awards 2019 Melhor jogo de ação de 2019 - IGN Talha o teu próprio caminho para uma vingança inteligente nesta aventura galardoada concebida pela FromSoftware, os criadores de Bloodborne e da série Dark Souls. Vinga-te. Restaura a tua honra. Mata com engenho.",
+    "description": "Esta Edição Jogo do Ano inclui agora conteúdo de bónus*:\n\n- Reflection e Gauntlet of Strength - novos modos de desafio de bosses\n\n- Remnants - deixa mensagens e gravações que os outros jogadores podem ver e classificar\n\n- 3 skins cosméticas desbloqueáveis\n\nJogo do ano - The Game Awards 2019\n\nMelhor jogo de ação de 2019 - IGN\n\nMais de 50 prémios e nomeações\n\nTalha o teu próprio caminho para uma vingança inteligente nesta nova aventura concebida pela FromSoftware, os criadores da série Dark Souls.\n\nNo Sekiro™: Shadows Die Twice tu és o 'lobo sem um braço', um guerreiro desonrado e desfigurado, salvo às portas da morte. Obrigado a proteger um jovem senhor que é descendente de uma antiga linhagem, irás tornar-te o alvo de muitos inimigos ferozes, incluindo o perigoso clã Ashina. Quando o jovem lorde é capturado, nada te impedirá de partir numa perigosa missão para reconquistares a tua honra, nem mesmo a própria morte.\n\nExplora o Japão Sengoku do final dos anos 1500, um período brutal de conflitos ininterruptos de vida ou morte, quando te deparas com inimigos poderosíssimos num mundo sombrio e sinuoso. Solta um arsenal de próteses mortais que são as tuas ferramentas e usa poderosas habilidades de ninja ao combinares o combate furtivo, travessais verticais e um corpo a corpo visceral num confronto sangrento.\n\nVinga-te. Recupera a tua honra. Mata de forma engenhosa.\n\n*Requer transferência.\n\nRequer ligação à internet para Multijogador assíncrono.",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/814380/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 359941,
+      "positive": 342816,
+      "negative": 17125,
+      "recommendPercent": 95,
+      "praise": "A satisfação de dominar a defesa e os duelos com chefes é o grande destaque.",
+      "caveat": "A exigência de precisão pode ser frustrante, e alguns relatos mencionam problemas de resolução no PC.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/814380/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "stardew-valley",
+    "steamAppId": 413150,
+    "name": "Stardew Valley",
+    "originalName": "STARDEW VALLEY",
+    "year": 2016,
+    "releaseDate": "26 fev. 2016",
+    "developer": "ConcernedApe",
+    "publisher": "ConcernedApe",
+    "franchise": "Stardew Valley",
+    "category": "Jogo",
+    "genres": [
+      "Indie",
+      "RPG",
+      "Simulação"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "Linux"
+    ],
+    "modes": [
+      "Co-op",
+      "Co-op online",
+      "Co-op em LAN",
+      "Co-op, ecrã partilhado/dividido"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/413150/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256815967",
+        "title": "Stardew Valley Trailer 1080p",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/413150/336433/0058de516bf7c46986ba1e81172ffd3c2ca6cad7/1750527541/hls_264_master.m3u8?t=1754692862",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256815967/movie.293x165.jpg?t=1754692862"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1786554168",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.1920x1080.jpg?t=1786554168",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_4fa0866709ede3753fdf2745349b528d5e8c4054.1920x1080.jpg?t=1786554168",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_d836f0a5b0447fb6a2bdb0a6ac5f954949d3c41e.1920x1080.jpg?t=1786554168",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_10628b4a811c0a925a1433d4323f78c7017dbbe4.1920x1080.jpg?t=1786554168",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_6422d297347258086b389e3d5d9c0e0c698312e4.1920x1080.jpg?t=1786554168"
+    ],
+    "score": "89",
+    "tagline": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+    "description": "Stardew Valley is an open-ended country-life RPG! \n\nYou've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!\n\n Features \n Turn your overgrown field into a lively farm! Raise animals, grow crops, start an orchard, craft useful machines, and more! You'll have plenty of space to create the farm of your dreams. \n\n 8 Player Farming! Invite 1-7 players to join you in the valley online! Players can work together to build a thriving farm, share resources, and improve the local community. As more hands are better than one, players have the option to scale profit margin on produce sold for a more challenging experience.\n\n Improve your skills over time. As you make your way from a struggling greenhorn to a master farmer, you'll level up in 5 different areas: farming, mining, combat, fishing, and foraging. As you progress, you'll learn new cooking and crafting recipes, unlock new areas to explore, and customize your skills by choosing from a variety of professions. \n\n Become part of the local community. With over 30 unique characters living in Stardew Valley, you won't have a problem finding new friends! Each person has their own daily schedule, birthday, unique mini-cutscenes, and new things to say throughout the week and year. As you make friends with them, they will open up to you, ask you for help with their personal troubles, or tell you their secrets! Take part in seasonal festivals such as the luau, haunted maze, and feast of the winter star. \n\n Explore a vast, mysterious cave. As you travel deeper underground, you'll encounter new and dangerous monsters, powerful weapons, new environments, valuable gemstones, raw materials for crafting and upgrading tools, and mysteries to be uncovered. \n\n Breathe new life into the valley. Since JojaMart opened, the old way of life in Stardew Valley has changed. Much of the town's infrastructure has fallen into disrepair. Help restore Stardew Valley to it's former glory by repairing the old community center, or take the alternate route and join forces with Joja Corporation.\n\n Court and marry a partner to share your life on the farm with. There are 12 available bachelors and bachelorettes to woo, each with unique character progression cutscenes. Once married, your partner will live on the farm with you. Who knows, maybe you'll have kids and start a family?\n\n Spend a relaxing afternoon at one of the local fishing spots. The waters are teeming with seasonal varieties of delicious fish. Craft bait, bobbers, and crab pots to help you in your journey toward catching every fish and becoming a local legend! \n\n Donate artifacts and minerals to the local museum. \n\n Cook delicious meals and craft useful items to help you out. With over 100 cooking and crafting recipes, you'll have a wide variety of items to create. Some dishes you cook will even give you temporary boosts to skills, running speed, or combat prowess. Craft useful objects like scarecrows, oil makers, furnaces, or even the rare and expensive crystalarium. \n\n Customize the appearance of your character and house. With hundreds of decorative items to choose from, you'll have no trouble creating the home of your dreams!\n\n Xbox controller support (with rumble)! (Keyboard still required for text input) \n\n Over two hours of original music.",
+    "highlights": [
+      "Indie",
+      "RPG",
+      "Co-op",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/413150/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 1050839,
+      "positive": 1034898,
+      "negative": 15941,
+      "recommendPercent": 98,
+      "praise": "Liberdade para cuidar da fazenda no próprio ritmo e o conteúdo acolhedor mantêm jogadores por muito tempo.",
+      "caveat": "Minimizar tarefas pode transformar a rotina em trabalho, e combate ou cavernas não agradam a todos.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/413150/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "subnautica",
+    "steamAppId": 264710,
+    "name": "Subnautica",
+    "originalName": "SUBNAUTICA",
+    "year": 2018,
+    "releaseDate": "23 jan. 2018",
+    "developer": "Unknown Worlds Entertainment",
+    "publisher": "Unknown Worlds Entertainment",
+    "franchise": "Subnautica",
+    "category": "Jogo",
+    "genres": [
+      "Aventura",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "macOS"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/264710/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256706800",
+        "title": "Subnautica Gameplay Trailer",
+        "kind": "GAMEPLAY",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/264710/143519/33594902d34e588ce90d9905c30aa902198fea59/1750490623/hls_264_master.m3u8?t=1516828564",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256706800/movie.293x165.jpg?t=1516828564"
+      },
+      {
+        "provider": "steam",
+        "id": "256706872",
+        "title": "Subnautica Cinematic Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/264710/143714/5edf88beb952621c411bb168a9b08c9e7ef51637/1750490625/hls_264_master.m3u8?t=1516824043",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256706872/movie.293x165.jpg?t=1516824043"
+      },
+      {
+        "provider": "steam",
+        "id": "2036126",
+        "title": "Subnautica Early Access Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/264710/28654/05ca8a9c6de3c597701bc93e6d7615fb557c852e/1750490540/hls_264_master.m3u8?t=1447366004",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2036126/movie.293x165.jpg?t=1447366004"
+      },
+      {
+        "provider": "steam",
+        "id": "256662171",
+        "title": "Subnautica Early Access Gameplay Montage",
+        "kind": "GAMEPLAY",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/264710/55128/06ac53f65e291c5ee42b9e76907f7a3cdef362f6/1750490593/hls_264_master.m3u8?t=1518110769",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256662171/movie.293x165.jpg?t=1518110769"
+      },
+      {
+        "provider": "steam",
+        "id": "256656451",
+        "title": "Subnautica Seamoth Update",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/264710/43042/c9749f04ba1d19d13a2194451143f23b29d39a58/1750490588/hls_264_master.m3u8?t=1491210612",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256656451/movie.293x165.jpg?t=1491210612"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/ss_e182b6b20bb797500f9f63c561586d920d44e37c.1920x1080.jpg?t=1777456112",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/ss_970a13f246e33e0df26d93baf9f8e975732adb4b.1920x1080.jpg?t=1777456112",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/ss_5f2f2ea498cdc632cbffd6cf37c1a09670eb3272.1920x1080.jpg?t=1777456112",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/ss_cebc378d2f7bc78978c21db4e3c5e12ccd067349.1920x1080.jpg?t=1777456112",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/ss_0ace7f8b4350b8fbdd16345a76bc30545256e918.1920x1080.jpg?t=1777456112",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/ss_f0eeabe108c2bc2b3e370b9828fb280035b50db2.1920x1080.jpg?t=1777456112"
+    ],
+    "score": "87",
+    "tagline": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive.",
+    "description": "Subnautica is an underwater adventure game set on an alien ocean planet. A massive, open world full of wonder and peril awaits you! Dive Into a Vast Underwater World\n\nYou have crash-landed on an alien ocean world, and the only way to go is down. Subnautica's oceans range from sun drenched shallow coral reefs to treacherous deep-sea trenches, lava fields, and bio-luminescent underwater rivers. Manage your oxygen supply as you explore kelp forests, plateaus, reefs, and winding cave systems. The water teems with life: Some of it helpful, much of it harmful. Scavenge, Craft, and Survive\n\nAfter crash landing in your Life Pod, the clock is ticking to find water, food, and to develop the equipment you need to explore. Collect resources from the ocean around you. Craft diving gear, lights, habitat modules, and submersibles. Venture deeper and further form to find rarer resources, allowing you to craft more advanced items. Construct Underwater Habitats\n\nBuild bases on the sea floor. Choose layouts and components, and manage hull-integrity as depth and pressure increase. Use your base to store resources, park vehicles, and replenish oxygen supplies as you explore the vast ocean. Unravel the Mystery\n\nWhat happened to this planet? Signs abound that something is not right. What caused you to crash? What is infecting the sea life? Who built the mysterious structures scattered around the ocean? Can you find a way to make it off the planet alive? Disrupt the Food Chain\n\nThe ocean teems with life: Use the ecosystem to help you. Lure and distract a threatening creature with a fresh fish, or simply swim as fast as you can to avoid gnashing jaws of roaming predators. Handle the Pressure\n\nBuild a Pressure Re-Active Waterproof Nanosuit, or PRAWN Suit, and explore extreme depth and heat. Modify the suit with mining drills, torpedo launchers, propulsion cannons, grappling hooks and more. Fear the Night\n\nAs the sun goes down, the predators come out. The ocean is unforgiving of those caught unprepared in the darkness. Areas that are safe to explore during the day become treacherous at night, but also reveal a beauty that those who hide from the darkness will never see. Dive Below the Ocean Floor\n\nCave systems wind below the sea bed, from dark claustrophobic passages to caverns lit by bio-luminescent life and burning-hot lava flows. Explore the world below the ocean floor, but watch your oxygen levels, and take care to avoid the threats lurking in the darkness. About the Development Team\n\nSubnautica is being created by Unknown Worlds, a small studio founded by Charlie Cleveland and Max McGuire that traces its roots back to the 2003 Half-Life mod Natural Selection. The team is scattered around the globe, from the United States to the United Kingdom, France, the Czech Republic, Russia, Thailand, Australia, and many more places. There is a central office in San Francisco, California that serves as home base for the whole team.\n\n Warning\n\nThis game contains flashing lights that may make it unsuitable for people with photosensitive epilepsy or other photosensitive conditions. Player discretion is advised.",
+    "highlights": [
+      "Aventura",
+      "Indie",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/264710/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 383647,
+      "positive": 372493,
+      "negative": 11154,
+      "recommendPercent": 97,
+      "praise": "Exploração, atmosfera e descoberta gradual da história são os aspectos mais elogiados.",
+      "caveat": "O começo pode parecer lento, e jogadores relatam limitações no suporte a VR.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/264710/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "terraria",
+    "steamAppId": 105600,
+    "name": "Terraria",
+    "originalName": "TERRARIA",
+    "year": 2011,
+    "releaseDate": "16 mai. 2011",
+    "developer": "Re-Logic",
+    "publisher": "Re-Logic",
+    "franchise": "Terraria",
+    "category": "Jogo",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Indie",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "Linux"
+    ],
+    "modes": [
+      "PvP",
+      "PvP online",
+      "Co-op",
+      "Co-op online"
+    ],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/105600/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "257274214",
+        "title": "Terraria: Bigger & Boulder Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/105600/1114648825/03d62ed8c2a353ea17f36caf492d053746655032/1769541214/hls_264_master.m3u8?t=1769844434",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257274214/3400c546ddc61c713c2a2da4df7032f0f264a2a4/movie_600x337.jpg?t=1769844434"
+      },
+      {
+        "provider": "steam",
+        "id": "256785003",
+        "title": "Terraria: Journey's End Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/105600/284912/418f39cf00388fbdd8efcdc81e05c19c410dfb6d/1750498447/hls_264_master.m3u8?t=1589654781",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256785003/movie.293x165.jpg?t=1589654781"
+      },
+      {
+        "provider": "steam",
+        "id": "2040428",
+        "title": "Terraria 1.3 Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/105600/38483/f6e095fa12b129c503f70d104eb2e0d2fd106db1/1750498447/hls_264_master.m3u8?t=1447376855",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2040428/movie.293x165.jpg?t=1447376855"
+      },
+      {
+        "provider": "steam",
+        "id": "2029566",
+        "title": "Terraria 1.2 Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/105600/13929/974ad9d2d714308f757f9cb4b09e2965cde67aa4/1750498444/hls_264_master.m3u8?t=1447358964",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2029566/movie.293x165.jpg?t=1447358964"
+      },
+      {
+        "provider": "steam",
+        "id": "81300",
+        "title": "Terraria 1.1 Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/105600/6446/096e6974d2ef94f2c5f55ff6ed6a8e29204e299f/1750498443/hls_264_master.m3u8?t=1447355104",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/81300/movie.293x165.jpg?t=1447355104"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_8c03886f214d2108cafca13845533eaa3d87d83f.1920x1080.jpg?t=1792530636",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_ae168a00ab08104ba266dc30232654d4b3c919e5.1920x1080.jpg?t=1792530636",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_9edd98caaf9357c2f40758f354475a56e356e8b0.1920x1080.jpg?t=1792530636",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_75ea9a7e39eb34b40efa1e6dfd2536098dc4734b.1920x1080.jpg?t=1792530636",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_782374517c1792debd74d24856203b876eba3a5d.1920x1080.jpg?t=1792530636",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_04dd9f0a5773b686a452ba480b951f83b3ed5061.1920x1080.jpg?t=1792530636"
+    ],
+    "score": "83",
+    "tagline": "Escave, lute, explore, construa! Nada é impossível neste jogo de aventura cheio de ação. Pacote com Quatro também disponível!",
+    "description": "Escava, luta, explora, constrói! Nada é impossível neste jogo de aventura cheio de ação. O mundo é a tua tela e o próprio solo é a tua tinta. \nAgarra nas tuas ferramentas e vai! Cria armas para repelires uma variedade de inimigos em biomas numerosos. Escava no subsolo profundo para encontrares acessórios, dinheiro e outras coisas úteis. Junta recursos para criares tudo o que precisas para fazer do mundo o teu. Constrói uma casa, um forte ou até um castelo. Algumas pessoas irão mudar-se para lá e talvez até vender-te diferentes mercadorias para te assistirem na tua jornada.\nMas cuidado, existem ainda mais desafios à tua espera... Estás à altura deles?\n Características Principais: \n Jogabilidade livre (sandbox)\n\n Mundos gerados aleatoriamente\n\n Atualizações de conteúdo grátis",
+    "highlights": [
+      "Ação",
+      "Aventura",
+      "PvP",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": {
+      "min": [
+        "Windows Xp, Vista, 7, 8/8.1, 10",
+        "2.0 Ghz",
+        "2.5GB",
+        "128mb Video Memory, capable of Shader Model 2.0+",
+        null
+      ],
+      "recommended": [
+        "Windows 7, 8/8.1, 10",
+        "Dual Core 3.0 Ghz",
+        "4GB",
+        "256mb Video Memory, capable of Shader Model 2.0+",
+        null
+      ]
+    },
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/105600/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 1568721,
+      "positive": 1527446,
+      "negative": 41275,
+      "recommendPercent": 97,
+      "praise": "Grande variedade de itens, construção e progressão garantem muitas horas de descoberta.",
+      "caveat": "A quantidade de sistemas pode ser confusa no início, e o combate ou a progressão não funcionam para todos.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/105600/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "the-elder-scrolls-v-skyrim-special-edition",
+    "steamAppId": 489830,
+    "name": "The Elder Scrolls V: Skyrim Special Edition",
+    "originalName": "THE ELDER SCROLLS V: SKYRIM SPECIAL EDITION",
+    "year": 2016,
+    "releaseDate": "27 out. 2016",
+    "developer": "Bethesda Game Studios",
+    "publisher": "Bethesda Softworks",
+    "franchise": "The Elder Scrolls V: Skyrim Special Edition",
+    "category": "Jogo",
+    "genres": [
+      "RPG"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/489830/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "256672927",
+        "title": "Skyrim Special Edition Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/489830/77128/20c56f14e492b05846f7262a246b4e4f0d455f7f/1750536877/hls_264_master.m3u8?t=1476991615",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256672927/movie.293x165.jpg?t=1476991615"
+      },
+      {
+        "provider": "steam",
+        "id": "256672841",
+        "title": "Skyrim SE Live Action Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/489830/76994/d34a1d9266cd9ea5eb9f0e6ff8b2c23bddc28368/1750536868/hls_264_master.m3u8?t=1476909226",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256672841/movie.293x165.jpg?t=1476909226"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/ss_73c1a0bb7e1720c8a1847186c3ddd837d3ca7a8d.1920x1080.jpg?t=1786648247",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/ss_d64b646612ab1402bdda8e400672aa0dbcb352ea.1920x1080.jpg?t=1786648247",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/ss_b6bb6f79278505b3f48567f08c21f7a0eb171c68.1920x1080.jpg?t=1786648247",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/ss_921ccea650df936a0b14ebd5dd4ecc73c1d2a12d.1920x1080.jpg?t=1786648247",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/ss_8c7ecd394afb581b9b2137a3de04433f78fdf4ea.1920x1080.jpg?t=1786648247",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/ss_50c3da9e29e9b0368889379cdd03a71aba8d614c.1920x1080.jpg?t=1786648247"
+    ],
+    "score": "74",
+    "tagline": "Vencedor de mais de 200 prémios de Jogo do Ano, The Elder Scrolls V: Skyrim Special Edition dá vida à fantasia épica com um nível de detalhe espantoso. A Special Edition inclui o jogo aclamado pela crítica e suplementos com novas funcionalidades.",
+    "description": "Vencedor de mais de 200 prémios de Jogo do Ano, The Elder Scrolls V: Skyrim Special Edition dá vida à fantasia épica com um nível de detalhe espantoso. A Special Edition inclui o jogo aclamado pela crítica e suplementos com novas funcionalidades como arte e efeitos remasterizados, raios volumétricos, profundidade de campo dinâmica, reflexos espaciais e muito mais. \n\nSkyrim Special Edition também traz todo o poder de Bethesda Game Studios Creations ao PC e às consolas. Novas missões, cenários, personagens, diálogos, armaduras, armas e muito mais: com Creations, não há limites para o que poderás encontrar.",
+    "highlights": [
+      "RPG",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/489830/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Muito positivas",
+      "totalReviews": 383780,
+      "positive": 353851,
+      "negative": 29929,
+      "recommendPercent": 92,
+      "praise": "Liberdade para explorar e uma comunidade enorme de mods mantêm o jogo vivo.",
+      "caveat": "Bugs antigos e atualizações que afetam mods aparecem nas críticas mais recentes.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/489830/?l=brazilian#app_reviews_hash"
+    }
+  },
+  {
+    "id": "the-witcher-3-wild-hunt-remastered",
+    "steamAppId": 292030,
+    "name": "The Witcher 3: Wild Hunt — Remastered",
+    "originalName": "THE WITCHER 3: WILD HUNT — REMASTERED",
+    "year": 2015,
+    "releaseDate": "18 mai. 2015",
+    "developer": "CD PROJEKT RED",
+    "publisher": "CD PROJEKT RED",
+    "franchise": "The Witcher 3: Wild Hunt — Remastered",
+    "category": "Jogo",
+    "genres": [
+      "RPG"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/292030/library_600x900_2x.jpg",
+    "videos": [
+      {
+        "provider": "steam",
+        "id": "257439641",
+        "title": "The Witcher 3: Wild Hunt — Remastered | Official Launch Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/292030/1018852715/bf5e4c4a6409b1714754e691e778ae9f66ab9907/1790683068/hls_264_master.m3u8?t=1790693333",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257439641/32f72964eceaa2ea37c3ab03dff903a45414a89b/movie_600x337.jpg?t=1790693333"
+      },
+      {
+        "provider": "steam",
+        "id": "257411252",
+        "title": "The Witcher 3: Wild Hunt — Remastered | Official Announcement Trailer",
+        "kind": "TRAILER",
+        "src": "https://video.akamai.steamstatic.com/store_trailers/292030/1059466150/127500382e99bd869888f1cc3155aca88ca03c2b/1787925174/hls_264_master.m3u8?t=1788333482",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257411252/858e1915d7356ec75fb05e394a5e291e65113296/movie_600x337.jpg?t=1788333482"
+      }
+    ],
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/f7f564ecedd09b3e503b071a637aeefdedbeedd8/ss_f7f564ecedd09b3e503b071a637aeefdedbeedd8.1920x1080.jpg?t=1793900434",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/0a38e4d0d57f15934772dbe09b322d08132d5518/ss_0a38e4d0d57f15934772dbe09b322d08132d5518.1920x1080.jpg?t=1793900434",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/19c03c2b997d3a393fc629fd42f55ddb4a3d8dd0/ss_19c03c2b997d3a393fc629fd42f55ddb4a3d8dd0.1920x1080.jpg?t=1793900434",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/3a3f430982cc3bccac1633d3ea60a30bf3d1ae9e/ss_3a3f430982cc3bccac1633d3ea60a30bf3d1ae9e.1920x1080.jpg?t=1793900434",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/78ecbfb8bc64b8e9d4a372f4a8ffa5069e9325d0/ss_78ecbfb8bc64b8e9d4a372f4a8ffa5069e9325d0.1920x1080.jpg?t=1793900434",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/203487f667e4ac00baf482b1c93c87a2b830a6fc/ss_203487f667e4ac00baf482b1c93c87a2b830a6fc.1920x1080.jpg?t=1793900434"
+    ],
+    "score": "93",
+    "tagline": "The Witcher 3: Wild Hunt — Remastered modernizes the acclaimed role-playing game with a range of upgrades and enhancements. Become monster slayer for hire Geralt of Rivia and journey across a dark fantasy open world in an epic quest to find your adopted daughter Ciri.",
+    "description": "The Witcher 3: Wild Hunt — Remastered modernizes the acclaimed role-playing game with a range of upgrades and enhancements. Become monster slayer for hire Geralt of Rivia and journey across a dark fantasy open world in an epic quest to find your adopted daughter Ciri.",
+    "highlights": [
+      "RPG",
+      "Confira os trailers e as imagens da ficha."
+    ],
+    "specs": null,
+    "availability": "Lançado",
+    "sourceUrl": "https://store.steampowered.com/app/292030/",
+    "communityReview": {
+      "platform": "Steam",
+      "scoreLabel": "Extremamente positivas",
+      "totalReviews": 909682,
+      "positive": 876730,
+      "negative": 32952,
+      "recommendPercent": 96,
+      "praise": "Histórias, personagens e missões secundárias são o motivo de muitas pessoas repetirem a jornada.",
+      "caveat": "O começo mais lento e relatos de desempenho na edição atualizada são pontos de atenção.",
+      "updatedAt": "2026-11-15T19:52:15.769Z",
+      "url": "https://store.steampowered.com/app/292030/?l=brazilian#app_reviews_hash"
+    }
+  }
+]

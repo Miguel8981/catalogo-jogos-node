@@ -1,28 +1,21 @@
 <template>
-  <header>
-    <h1>Catálogo de Jogos</h1>
-    <nav>
-      <template v-if="auth.usuario">
-        <router-link to="/inicio">Início</router-link>
-        <router-link to="/catalogo">Catálogo</router-link>
-        <router-link to="/biblioteca">Minha biblioteca</router-link>
-
-        <!-- Só o administrador enxerga estes links -->
-        <template v-if="auth.usuario.perfil === 'admin'">
-          <router-link to="/jogos">Gerenciar jogos</router-link>
-          <router-link to="/jogos/novo">Cadastrar jogo</router-link>
-          <router-link to="/admin/cadastro">Cadastrar admin</router-link>
-        </template>
-
-        <!-- O nome do usuário leva para a tela de perfil -->
-        <router-link class="usuario-nome" to="/perfil">{{ auth.usuario.nome }} ({{ auth.usuario.perfil }})</router-link>
-        <a href="#" @click.prevent="sairDaConta">Sair</a>
-      </template>
-      <template v-else>
-        <router-link to="/login">Entrar</router-link>
-        <router-link to="/cadastro">Criar conta</router-link>
-      </template>
-    </nav>
+  <header class="wiki-topbar">
+    <div class="topbar-inner">
+      <router-link class="wiki-brand" to="/inicio" aria-label="Game Atlas, página inicial"><span class="brand-mark">G<span>·</span></span><span class="brand-name">GAME<span>ATLAS</span></span></router-link>
+      <nav class="wiki-nav" aria-label="Navegação principal">
+        <router-link to="/inicio">Descobrir</router-link>
+        <router-link to="/catalogo">Jogos</router-link>
+        <router-link to="/catalogo/elden-ring#requisitos">Guias</router-link>
+      </nav>
+      <form class="topbar-search" role="search" @submit.prevent="buscar">
+        <span>⌕</span><input v-model="termo" type="search" placeholder="Buscar na wiki" aria-label="Buscar jogos"><kbd>↵</kbd>
+      </form>
+      <div class="topbar-account">
+        <router-link v-if="auth.usuario" class="account-link" to="/perfil">{{ auth.usuario.nome }}</router-link>
+        <a v-if="auth.usuario" href="#" class="account-link account-exit" @click.prevent="sairDaConta">Sair</a>
+        <router-link v-else class="account-link" to="/login">Entrar <span>↗</span></router-link>
+      </div>
+    </div>
   </header>
 </template>
 
@@ -31,13 +24,14 @@ import { auth, sair } from "../services/auth";
 
 export default {
   name: "TopoCabecalho",
-  data() {
-    return { auth };
-  },
+  data() { return { auth, termo: "" }; },
   methods: {
+    buscar() {
+      this.$router.push({ path: "/catalogo", query: this.termo.trim() ? { q: this.termo.trim() } : {} });
+    },
     async sairDaConta() {
       await sair();
-      this.$router.push("/login");
+      this.$router.push("/inicio");
     }
   }
 };

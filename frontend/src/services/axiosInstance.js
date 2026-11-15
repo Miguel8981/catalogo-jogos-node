@@ -3,7 +3,7 @@ import axios from "axios";
 // Instância única do axios: centraliza a URL da API para todo o projeto.
 // withCredentials envia o cookie da sessão para o back-end Node.
 const api = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "http://localhost:3001/api",
   withCredentials: true
 });
 
@@ -13,7 +13,7 @@ export function urlImagem(nomeArquivo) {
   if (!nomeArquivo) {
     return "";
   }
-  return "http://localhost:3000/uploads/" + nomeArquivo;
+  return "http://localhost:3001/uploads/" + nomeArquivo;
 }
 
 export default api;
