@@ -1,11 +1,11 @@
 <template>
   <header class="wiki-topbar">
     <div class="topbar-inner">
-      <router-link class="wiki-brand" to="/inicio" aria-label="Game Atlas, página inicial"><span class="brand-mark">G<span>·</span></span><span class="brand-name">GAME<span>ATLAS</span></span></router-link>
+      <router-link class="wiki-brand" to="/inicio" aria-label="Game Atlas, página inicial"><GameAtlasLogo /></router-link>
       <nav class="wiki-nav" aria-label="Navegação principal">
         <router-link to="/inicio">Descobrir</router-link>
-        <router-link to="/catalogo">Jogos</router-link>
-        <router-link to="/catalogo/elden-ring#requisitos">Guias</router-link>
+        <router-link to="/catalogo">Catálogo</router-link>
+        <router-link :to="{ path: '/catalogo', query: { sort: 'comunidade' } }">Mais avaliados</router-link>
       </nav>
       <form class="topbar-search" role="search" @submit.prevent="buscar">
         <span>⌕</span><input v-model="termo" type="search" placeholder="Buscar na wiki" aria-label="Buscar jogos"><kbd>↵</kbd>
@@ -21,9 +21,11 @@
 
 <script>
 import { auth, sair } from "../services/auth";
+import GameAtlasLogo from "./GameAtlasLogo.vue";
 
 export default {
   name: "TopoCabecalho",
+  components: { GameAtlasLogo },
   data() { return { auth, termo: "" }; },
   methods: {
     buscar() {

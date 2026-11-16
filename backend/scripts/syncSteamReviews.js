@@ -60,7 +60,9 @@ async function readSteamSummary(appId) {
 
 async function main() {
   let updated = 0;
+  const onlyMissing = process.argv.includes("--missing");
   for (const game of games) {
+    if (onlyMissing && game.communityReview) continue;
     if (!game.steamAppId) {
       game.communityReview = null;
       continue;

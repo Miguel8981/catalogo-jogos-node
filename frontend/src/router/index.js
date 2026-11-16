@@ -1,29 +1,18 @@
 import { createRouter, createWebHistory } from "vue-router";
 import { auth, carregarSessao, paginaInicial } from "../services/auth";
-import LoginView from "../views/LoginView.vue";
-import CadastroView from "../views/CadastroView.vue";
-import CadastroAdminView from "../views/CadastroAdminView.vue";
-import InicioView from "../views/InicioView.vue";
-import BibliotecaView from "../views/BibliotecaView.vue";
-import CatalogoView from "../views/CatalogoView.vue";
-import MinhaBibliotecaView from "../views/MinhaBibliotecaView.vue";
-import JogoDetalheView from "../views/JogoDetalheView.vue";
-import PerfilView from "../views/PerfilView.vue";
-import JogoFormView from "../views/JogoFormView.vue";
-
 const routes = [
   { path: "/", redirect: "/inicio" },
-  { path: "/login", component: LoginView, meta: { publica: true } },
-  { path: "/cadastro", component: CadastroView, meta: { publica: true } },
-  { path: "/inicio", component: InicioView, meta: { wiki: true } },
-  { path: "/admin/cadastro", component: CadastroAdminView, meta: { admin: true } },
-  { path: "/perfil", component: PerfilView },
-  { path: "/catalogo", component: CatalogoView, meta: { wiki: true } },
-  { path: "/catalogo/:id", component: JogoDetalheView, props: true, meta: { wiki: true } },
-  { path: "/biblioteca", component: MinhaBibliotecaView },
-  { path: "/jogos", component: BibliotecaView },
-  { path: "/jogos/novo", component: JogoFormView, meta: { admin: true } },
-  { path: "/jogos/:id/editar", component: JogoFormView, props: true, meta: { admin: true } }
+  { path: "/login", component: () => import("../views/LoginView.vue"), meta: { publica: true } },
+  { path: "/cadastro", component: () => import("../views/CadastroView.vue"), meta: { publica: true } },
+  { path: "/inicio", component: () => import("../views/InicioView.vue"), meta: { wiki: true } },
+  { path: "/admin/cadastro", component: () => import("../views/CadastroAdminView.vue"), meta: { admin: true } },
+  { path: "/perfil", component: () => import("../views/PerfilView.vue") },
+  { path: "/catalogo", component: () => import("../views/CatalogoView.vue"), meta: { wiki: true } },
+  { path: "/catalogo/:id", component: () => import("../views/JogoDetalheView.vue"), props: true, meta: { wiki: true } },
+  { path: "/biblioteca", component: () => import("../views/MinhaBibliotecaView.vue") },
+  { path: "/jogos", component: () => import("../views/BibliotecaView.vue") },
+  { path: "/jogos/novo", component: () => import("../views/JogoFormView.vue"), meta: { admin: true } },
+  { path: "/jogos/:id/editar", component: () => import("../views/JogoFormView.vue"), props: true, meta: { admin: true } }
 ];
 
 const router = createRouter({

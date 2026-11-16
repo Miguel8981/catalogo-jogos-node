@@ -24,6 +24,7 @@ app.use(cors({
 app.use(express.json());   // lê o corpo das requisições em JSON (req.body)
 
 // Catálogo editorial da wiki: leitura pública, separado dos jogos da biblioteca.
+app.get("/api/wiki/estatisticas", wikiController.estatisticas);
 app.get("/api/wiki/jogos", wikiController.listar);
 app.get("/api/wiki/jogos/:id", wikiController.buscar);
 

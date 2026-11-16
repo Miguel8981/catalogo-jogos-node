@@ -13,7 +13,7 @@
         <p class="detail-description">{{ game.description }}</p>
         <div class="detail-actions"><a v-if="game.videos.length" href="#videos" class="primary-link">▶ <span>Ver trailers e gameplay</span></a><a href="#ficha" class="outline-link">Ver ficha técnica <span>↓</span></a></div>
       </div>
-      <div class="detail-rating"><strong>{{ game.score }}</strong><span>METASCORE</span><small>de 100</small></div>
+      <div class="detail-rating" :class="{ 'detail-rating-empty': !game.score || game.score === '—' }"><strong>{{ game.score && game.score !== '—' ? game.score : '—' }}</strong><span>{{ game.score && game.score !== '—' ? 'METASCORE' : 'SEM NOTA' }}</span><small v-if="game.score && game.score !== '—'">de 100</small></div>
     </section>
 
     <section id="ficha" class="detail-facts">
@@ -108,20 +108,20 @@
       <span class="lightbox-count">{{ imageIndex + 1 }} / {{ game.screenshots.length }}</span>
     </div>
   </div>
+  <div v-else-if="isLoading" class="wiki-page detail-loading"><span class="eyebrow"><span class="api-live-dot"></span> CONSULTANDO A API DA WIKI</span><p>Carregando ficha, imagens e informações do jogo…</p></div>
   <div v-else class="wiki-page not-found"><span class="eyebrow">FICHA NÃO ENCONTRADA</span><h1>Esse jogo ainda não entrou no catálogo.</h1><router-link class="primary-link" to="/catalogo">Voltar ao catálogo <span>→</span></router-link></div>
 </template>
 
 <script>
-import games from "../data/wikiGames";
 import api from "../services/axiosInstance";
-import { normalizeGame } from "../data/wikiGames";
+import { normalizeGame } from "../data/wikiGameUtils";
 import WikiVideoPlayer from "../components/WikiVideoPlayer.vue";
 
 export default {
   name: "JogoDetalheView",
   components: { WikiVideoPlayer },
   props: { id: { type: String, required: true } },
-  data() { return { game: games.find((item) => item.id === this.id), videoIndex: 0, imageIndex: 0, lightboxAberto: false, specLabels: ["Sistema operacional", "Processador", "Memória", "Placa de vídeo", "Armazenamento"] }; },
+  data() { return { game: null, isLoading: true, videoIndex: 0, imageIndex: 0, lightboxAberto: false, specLabels: ["Sistema operacional", "Processador", "Memória", "Placa de vídeo", "Armazenamento"] }; },
   async created() { await this.carregarJogo(this.id); },
   computed: { activeVideo() { return this.game && this.game.videos[this.videoIndex]; } },
   watch: { id(value) { this.carregarJogo(value); this.videoIndex = 0; this.imageIndex = 0; this.lightboxAberto = false; } },
@@ -129,9 +129,16 @@ export default {
     formatarNumero(valor) { return new Intl.NumberFormat("pt-BR").format(valor || 0); },
     formatarData(valor) { return valor ? new Intl.DateTimeFormat("pt-BR", { dateStyle: "medium" }).format(new Date(valor)) : "data não informada"; },
     async carregarJogo(id) {
-      this.game = games.find((item) => item.id === id) || null;
-      try { const response = await api.get(`/wiki/jogos/${encodeURIComponent(id)}`); this.game = normalizeGame(response.data); }
-      catch (error) { console.warn("Usando ficha local: API wiki indisponível.", error.message); }
+      this.game = null;
+      this.isLoading = true;
+      try {
+        const response = await api.get(`/wiki/jogos/${encodeURIComponent(id)}`);
+        this.game = normalizeGame(response.data);
+      } catch (error) {
+        console.warn("Usando ficha local: API wiki indisponível.", error.message);
+        const { default: localGames } = await import("../data/wikiGames");
+        this.game = localGames.find((item) => item.id === id) || null;
+      } finally { this.isLoading = false; }
     },
     moverImagem(delta) { this.imageIndex = (this.imageIndex + delta + this.game.screenshots.length) % this.game.screenshots.length; }
   }

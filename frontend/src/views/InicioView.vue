@@ -11,7 +11,7 @@
         </div>
         <router-link class="primary-link" :to="`/catalogo/${featured.id}`">Explorar jogo <span>↗</span></router-link>
       </div>
-      <div class="hero-index"><span>01</span><i></i>06</div>
+      <div class="hero-index"><span>01</span><i></i>DESTAQUE</div>
     </section>
 
     <section class="home-intro">
@@ -19,7 +19,16 @@
         <span class="eyebrow">UM UNIVERSO DE JOGOS, EM UM SÓ LUGAR</span>
         <h2>Conheça antes de jogar.</h2>
       </div>
-      <p>Descubra histórias, estúdios, plataformas, trailers e o que seu PC precisa para rodar cada jogo.</p>
+      <p>Uma biblioteca feita para ir além da capa: explore mundos, compare avaliações da comunidade, assista a trailers e confira o que cada jogo exige.</p>
+    </section>
+
+    <section class="home-discovery" aria-labelledby="discovery-title">
+      <div class="discovery-heading"><span class="eyebrow">EXPLORE DO SEU JEITO</span><h2 id="discovery-title">Qual será sua próxima aventura?</h2></div>
+      <div class="discovery-chips">
+        <router-link v-for="item in discoveryLinks" :key="item.label" :to="{ path: '/catalogo', query: { q: item.query } }"><span>{{ item.symbol }}</span>{{ item.label }}<b>↗</b></router-link>
+      </div>
+      <div class="discovery-stats"><span><strong>{{ catalogCount }}</strong> FICHAS NO BANCO</span><i></i><span><strong>{{ ratedCount }}</strong> COM AVALIAÇÕES DA COMUNIDADE</span><i></i><span><strong>{{ formattedReviewCount }}</strong> OPINIÕES STEAM</span></div>
+      <div class="api-showcase"><div class="api-orbit"><span>API</span><i></i><i></i><i></i></div><div class="api-copy"><span class="eyebrow"><span class="api-live-dot"></span> {{ apiStatus }}</span><h3>Dados que vêm de mais de uma fonte.</h3><p>O catálogo editorial é servido pelo backend e banco de dados. As avaliações da comunidade vêm da Steam; trailers e imagens completam cada ficha.</p></div><div class="api-sources"><span v-for="source in dataSources" :key="source"><i></i>{{ source }}</span></div></div>
     </section>
 
     <section class="home-section">
@@ -32,7 +41,9 @@
           <div class="wiki-card-art">
             <img :src="game.cover" :alt="`Capa de ${game.name}`" loading="lazy">
             <span class="wiki-card-number">0{{ index + 1 }}</span>
-            <span class="wiki-card-score">{{ game.score }}<small> / 100</small></span>
+            <span class="wiki-card-score" v-if="game.communityReview">{{ game.communityReview.recommendPercent }}<small>% recomendam</small></span>
+            <span class="wiki-card-score" v-else-if="game.score && game.score !== '—'">{{ game.score }}<small> / 100</small></span>
+            <span class="wiki-card-score card-score-pending" v-else>FICHA</span>
           </div>
           <div class="wiki-card-info">
             <div><h3>{{ game.name }}</h3><p>{{ game.developer }} · {{ game.year }}</p></div>
@@ -51,24 +62,54 @@
 </template>
 
 <script>
-import games from "../data/wikiGames";
 import api from "../services/axiosInstance";
-import { normalizeGame } from "../data/wikiGames";
+import { normalizeGame } from "../data/wikiGameUtils";
 
 export default {
   name: "InicioView",
-  data() {
-    return { featured: games[0], recommendations: games.slice(1, 5) };
+  data() { return {
+    featured: { id: "", name: "Carregando catálogo…", originalName: "GAME ATLAS", year: "", tagline: "Preparando a próxima aventura.", genres: [], cover: "" },
+    recommendations: [],
+    allGames: [],
+    totalReviews: 0,
+    dataSources: ["API Game Atlas", "Banco de dados MySQL", "Steam Web API"],
+    apiStatus: "CONECTANDO À API",
+    discoveryLinks: [
+      { label: "Mundos abertos", query: "Mundo aberto", symbol: "◎" },
+      { label: "RPGs memoráveis", query: "RPG", symbol: "✳" },
+      { label: "Jogar em dupla", query: "Cooperativo", symbol: "↗" },
+      { label: "Monster Hunter", query: "Monster Hunter", symbol: "◈" }
+    ]
+  };
+  },
+  computed: {
+    catalogCount() { return this.allGames.length; },
+    ratedCount() { return this.allGames.filter((game) => game.communityReview).length; },
+    videoCount() { return this.allGames.filter((game) => game.videos.length).length; },
+    formattedReviewCount() { return new Intl.NumberFormat("pt-BR", { notation: this.totalReviews > 999999 ? "compact" : "standard", maximumFractionDigits: 1 }).format(this.totalReviews); }
   },
   async created() {
+    let catalog = [];
     try {
       const response = await api.get("/wiki/jogos");
-      if (Array.isArray(response.data) && response.data.length) {
-        const catalog = response.data.map(normalizeGame);
-        this.featured = catalog.find((game) => game.franchise !== "Monster Hunter") || catalog[0];
-        this.recommendations = catalog.filter((game) => game.id !== this.featured.id && game.franchise !== "Monster Hunter").slice(0, 4);
-      }
-    } catch (error) { console.warn("Usando destaques locais: API wiki indisponível.", error.message); }
+      if (Array.isArray(response.data)) catalog = response.data.map(normalizeGame);
+      this.apiStatus = "API E BANCO DE DADOS CONECTADOS";
+    } catch (error) {
+      console.warn("Usando destaques locais: API wiki indisponível.", error.message);
+      const { default: localGames } = await import("../data/wikiGames");
+      catalog = localGames.map(normalizeGame);
+      this.apiStatus = "MODO DE APRESENTAÇÃO LOCAL";
+    }
+    if (catalog.length) {
+      this.allGames = catalog;
+      this.featured = catalog.find((game) => game.franchise !== "Monster Hunter") || catalog[0];
+      this.recommendations = catalog.filter((game) => game.id !== this.featured.id && game.franchise !== "Monster Hunter").slice(0, 4);
+    }
+    try {
+      const stats = await api.get("/wiki/estatisticas");
+      this.totalReviews = stats.data.totalCommunityReviews || 0;
+      this.dataSources = stats.data.dataSources || this.dataSources;
+    } catch (error) { console.warn("Estatísticas da wiki indisponíveis.", error.message); }
   }
 };
 </script>

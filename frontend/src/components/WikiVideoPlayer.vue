@@ -6,8 +6,6 @@
 </template>
 
 <script>
-import Hls from "hls.js";
-
 export default {
   name: "WikiVideoPlayer",
   props: { video: { type: Object, default: null } },
@@ -15,10 +13,13 @@ export default {
   watch: { video: { immediate: true, handler() { this.$nextTick(this.attachVideo); } } },
   beforeUnmount() { if (this.hls) this.hls.destroy(); },
   methods: {
-    attachVideo() {
+    async attachVideo() {
       if (this.hls) { this.hls.destroy(); this.hls = null; }
       if (!this.video || this.video.provider !== "steam" || !this.video.src || !this.$refs.player) return;
+      const selectedVideo = this.video;
       const player = this.$refs.player;
+      const { default: Hls } = await import("hls.js");
+      if (selectedVideo !== this.video || player !== this.$refs.player) return;
       if (Hls.isSupported()) { this.hls = new Hls(); this.hls.loadSource(this.video.src); this.hls.attachMedia(player); }
       else if (player.canPlayType("application/vnd.apple.mpegurl")) player.src = this.video.src;
     }
